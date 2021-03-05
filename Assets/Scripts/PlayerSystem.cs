@@ -55,6 +55,7 @@ public class PlayerSystem : MonoBehaviour
     }
 
     float accumulator = 0.0f;
+    
     void Update()
     {
         accumulator += Time.deltaTime;
@@ -70,6 +71,12 @@ public class PlayerSystem : MonoBehaviour
         controller.update();
         dispatch();
     }
+
+    private void FixedUpdate()
+    {
+        states[current].fixed_act(fixed_controller);
+    }
+
 
     // Special stateless situations 
     public void OnTriggerStay2D(Collider2D collision)

@@ -38,7 +38,13 @@ public class AnimalSystem : MonoBehaviour, Commandable
     {
         // 0 = from; 1 = to
         TimestampMove[] to_return = new TimestampMove[2];
-        for(int i = 1; i < positions.Count; i++) {
+        float alpha = float.MaxValue;
+        for (int i = 1; i < positions.Count; i++) {
+            if(alpha < positions[i].time)
+            {
+                alpha = positions[i].time;
+            }
+
             if (positions[i].time > time) {
                 to_return[0] = positions[i - 1];
                 to_return[1] = positions[i];
@@ -70,7 +76,7 @@ public class AnimalSystem : MonoBehaviour, Commandable
                 float full = to.time - from.time;
                 float current = my_time - from.time;
                 float t = current / full;
-                Debug.Log(t);
+               
                 transform.position = Vector3.Lerp(from.position, to.position, t);
             }
         }
