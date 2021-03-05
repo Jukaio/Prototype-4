@@ -28,46 +28,46 @@ TextureImporter:
     second: ReaperCharacter_7
   - first:
       213: 7616630037617966294
-    second: idle0_0
+    second: ReaperCharacter_8
   - first:
       213: -6193181178541791099
-    second: idle0_1
+    second: ReaperCharacter_9
   - first:
       213: -6772073783348689517
-    second: idle0_2
+    second: ReaperCharacter_10
   - first:
       213: 6597856248330750266
-    second: idle0_3
+    second: ReaperCharacter_11
   - first:
       213: 3838385336081102014
-    second: idle1_0
+    second: ReaperCharacter_12
   - first:
       213: -7305524651691731532
-    second: idle1_1
+    second: ReaperCharacter_13
   - first:
       213: -7198290581447638489
-    second: idle1_2
+    second: ReaperCharacter_14
   - first:
       213: -8764907638934125188
-    second: idle1_3
+    second: ReaperCharacter_15
   - first:
       213: 2616112996618384302
     second: ReaperCharacter_16
   - first:
       213: 4780296428097795335
-    second: walk_0
+    second: ReaperCharacter_17
   - first:
       213: -4432956243278349208
-    second: walk_1
+    second: ReaperCharacter_18
   - first:
       213: -2946964712353724261
-    second: walk_2
+    second: ReaperCharacter_19
   - first:
       213: 2241198184116208059
-    second: walk_3
+    second: ReaperCharacter_20
   - first:
       213: 1486670909581143936
-    second: walk_4
+    second: ReaperCharacter_21
   - first:
       213: -719378358328869096
     second: walk_5
@@ -111,7 +111,7 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-  spriteExtrude: 1
+  spriteExtrude: 0
   spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
@@ -190,7 +190,7 @@ TextureImporter:
         x: 0
         y: 120
         width: 40
-        height: 40
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -211,7 +211,7 @@ TextureImporter:
         x: 40
         y: 120
         width: 40
-        height: 40
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -232,7 +232,7 @@ TextureImporter:
         x: 80
         y: 120
         width: 40
-        height: 40
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -253,7 +253,7 @@ TextureImporter:
         x: 120
         y: 120
         width: 40
-        height: 40
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -274,7 +274,7 @@ TextureImporter:
         x: 160
         y: 120
         width: 40
-        height: 40
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -295,7 +295,7 @@ TextureImporter:
         x: 200
         y: 120
         width: 40
-        height: 40
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -316,7 +316,7 @@ TextureImporter:
         x: 240
         y: 120
         width: 40
-        height: 40
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -337,7 +337,7 @@ TextureImporter:
         x: 280
         y: 120
         width: 40
-        height: 40
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -352,13 +352,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle0_0
+      name: ReaperCharacter_8
       rect:
         serializedVersion: 2
         x: 0
         y: 80
         width: 40
-        height: 40
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -373,13 +373,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle0_1
+      name: ReaperCharacter_9
       rect:
         serializedVersion: 2
         x: 40
         y: 80
         width: 40
-        height: 40
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -394,13 +394,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle0_2
+      name: ReaperCharacter_10
       rect:
         serializedVersion: 2
         x: 80
         y: 80
         width: 40
-        height: 40
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -415,13 +415,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle0_3
+      name: ReaperCharacter_11
       rect:
         serializedVersion: 2
         x: 120
         y: 80
         width: 40
-        height: 40
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -436,13 +436,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle1_0
+      name: ReaperCharacter_12
       rect:
         serializedVersion: 2
         x: 0
         y: 40
         width: 40
-        height: 40
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -457,13 +457,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle1_1
+      name: ReaperCharacter_13
       rect:
         serializedVersion: 2
         x: 40
         y: 40
         width: 40
-        height: 40
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -478,13 +478,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle1_2
+      name: ReaperCharacter_14
       rect:
         serializedVersion: 2
         x: 80
         y: 40
         width: 40
-        height: 40
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -499,13 +499,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle1_3
+      name: ReaperCharacter_15
       rect:
         serializedVersion: 2
         x: 120
         y: 40
         width: 40
-        height: 40
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -520,13 +520,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walk_0
+      name: ReaperCharacter_17
       rect:
         serializedVersion: 2
-        x: 0
+        x: 40
         y: 0
         width: 40
-        height: 40
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -541,13 +541,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walk_1
+      name: ReaperCharacter_18
       rect:
         serializedVersion: 2
-        x: 40
+        x: 80
         y: 0
         width: 40
-        height: 40
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -562,13 +562,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walk_2
+      name: ReaperCharacter_19
       rect:
         serializedVersion: 2
-        x: 81
+        x: 120
         y: 0
         width: 40
-        height: 40
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -583,13 +583,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walk_3
+      name: ReaperCharacter_20
       rect:
         serializedVersion: 2
-        x: 120
+        x: 160
         y: 0
         width: 40
-        height: 40
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -604,13 +604,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walk_4
+      name: ReaperCharacter_21
       rect:
         serializedVersion: 2
-        x: 160
+        x: 200
         y: 0
         width: 40
-        height: 40
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -625,13 +625,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walk_5
+      name: ReaperCharacter_16
       rect:
         serializedVersion: 2
-        x: 200
+        x: 0
         y: 0
         width: 40
-        height: 40
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -639,8 +639,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 81f34bcc1314406f0800000000000000
-      internalID: -719378358328869096
+      spriteID: ea3b8bfd8ec4e4420800000000000000
+      internalID: 2616112996618384302
       vertices: []
       indices: 
       edges: []
