@@ -18,6 +18,7 @@ public class CaringState : PlayerState
     [SerializeField] private Vector2 offset;
     private AnimalShelter animals;
     private MovementState ms;
+    private SpriteRenderer sr;
     private List<AnimalSystem> animals_around_player = new List<AnimalSystem>();
 
     private State prev_level = 0;
@@ -35,6 +36,7 @@ public class CaringState : PlayerState
     {
         animals = GetComponent<AnimalShelter>();
         ms = GetComponent<MovementState>();
+        sr = GetComponent<SpriteRenderer>();
         arrow.SetActive(false);
         menu.SetActive(false);
     }
@@ -172,9 +174,9 @@ public class CaringState : PlayerState
             menu.transform.GetChild(i).gameObject.SetActive(false);
         }
         menu.transform.GetChild(curr_tool).gameObject.SetActive(true);
-
         refresh_arrow();
         curr_level = State.selection;
+        sr.flipX = !sr.flipX;
     }
 
     public override void exit()
@@ -182,6 +184,7 @@ public class CaringState : PlayerState
         arrow.SetActive(false);
         menu.SetActive(false);
         curr_level = State.close;
+        sr.flipX = !sr.flipX;
     }
 
     public void on_meeting(AnimalSystem animal)
