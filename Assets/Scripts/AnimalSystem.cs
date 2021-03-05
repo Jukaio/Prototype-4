@@ -9,6 +9,9 @@ public interface Commandable
 
 public class AnimalSystem : MonoBehaviour, Commandable
 {
+    private SpriteRenderer sr;
+    private Vector3 previous_position;
+    private Vector3 look_dir = Vector3.left;
     private struct TimestampMove
     {
         public TimestampMove(Vector3 pos, float t)
@@ -30,22 +33,30 @@ public class AnimalSystem : MonoBehaviour, Commandable
         return positions[positions.Count - 1].position;
     }
 
+
     private TimestampMove[] find_pair_at(float time)
     {
         // 0 = from; 1 = to
         TimestampMove[] to_return = new TimestampMove[2];
-        for(int i = 0; i < positions.Count; i++) {
+        for(int i = 1; i < positions.Count; i++) {
             if (positions[i].time > time) {
-                to_return[0] = positions[i];
-                to_return[1] = positions[i + 1];
+                to_return[0] = positions[i - 1];
+                to_return[1] = positions[i];
                 return to_return;
             }
         }
         return to_return;
     }
 
+    private void Start()
+    {
+        sr = GetComponent<SpriteRenderer>();
+    }
+
     void Update()
     {
+        previous_position = transform.position;
+
         float my_time = Time.time - reaction_delay;
 
         if (positions.Count > 1)
@@ -58,8 +69,8 @@ public class AnimalSystem : MonoBehaviour, Commandable
 
                 float full = to.time - from.time;
                 float current = my_time - from.time;
-
                 float t = current / full;
+                Debug.Log(t);
                 transform.position = Vector3.Lerp(from.position, to.position, t);
             }
         }
@@ -67,6 +78,12 @@ public class AnimalSystem : MonoBehaviour, Commandable
         positions.RemoveAll((TimestampMove move) => { 
             return move.time < Time.time - threshhold; 
         });
+
+        if(transform.position != previous_position)
+        {
+            look_dir = transform.position - previous_position;
+            sr.flipX = look_dir.x > 0.0f;
+        }
     }
 
     public void on_move(Vector3 position)
