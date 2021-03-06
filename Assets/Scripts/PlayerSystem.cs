@@ -49,7 +49,7 @@ public class PlayerSystem : MonoBehaviour
     void dispatch()
     {
         previous = current;
-        current = states[current].act(controller);
+        current = states[current].act(controller, Time.deltaTime);
         if (is_transitioning())
             change_state();
     }
@@ -66,9 +66,8 @@ public class PlayerSystem : MonoBehaviour
             // Every fixed step, reset
             fixed_controller.reset();
         }
-        fixed_controller.do_fixed_update(controller);
-
         controller.update();
+        fixed_controller.do_fixed_update(controller);
         dispatch();
     }
 

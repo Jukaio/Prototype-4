@@ -148,7 +148,7 @@ public class CaringState : PlayerState
         return animals_around_player.Count > 0;
     }
 
-    public override System.Type act(IController controller)
+    public override System.Type act(IController controller, float dt)
     {
         if(animals.empty())
             return typeof(MovementState);
@@ -185,6 +185,8 @@ public class CaringState : PlayerState
         menu.SetActive(false);
         curr_level = State.close;
         sr.flipX = !sr.flipX;
+        StartCoroutine(block_adoption());
+        refresh_close_animals();
     }
 
     public void on_meeting(AnimalSystem animal)
@@ -197,10 +199,10 @@ public class CaringState : PlayerState
     }
 
     public bool allow_adopting = true;
-    public IEnumerator adopting_timer()
+    public IEnumerator block_adoption(float time = 0.4f)
     {
         allow_adopting = false;
-        yield return new WaitForSeconds(0.4f);
+        yield return new WaitForSeconds(time);
         allow_adopting = true;
     }
     public override void on_special(IController controller)
@@ -209,7 +211,7 @@ public class CaringState : PlayerState
             bool animals_close = are_animals_close();
             if (animals_close)
             {
-                StartCoroutine(adopting_timer());
+                StartCoroutine(block_adoption());
 
                 var selection = animals_around_player[animals_around_player.Count - 1];
                 animals.adopt(selection);
