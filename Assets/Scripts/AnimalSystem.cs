@@ -12,6 +12,7 @@ public class AnimalSystem : MonoBehaviour, Commandable
     private SpriteRenderer sr;
     private Vector3 previous_position;
     private Vector3 look_dir = Vector3.left;
+    private Disolve disolve;
     private struct TimestampMove
     {
         public TimestampMove(Vector3 pos, float t)
@@ -57,6 +58,16 @@ public class AnimalSystem : MonoBehaviour, Commandable
     private void Start()
     {
         sr = GetComponent<SpriteRenderer>();
+        disolve = GetComponent<Disolve>();
+    }
+
+    public void disappear(Disolve.Callback callback = null)
+    {
+        disolve.disappear(callback);
+    }
+    public void appear(Disolve.Callback callback = null)
+    {
+        disolve.appear(callback);
     }
 
     void Update()

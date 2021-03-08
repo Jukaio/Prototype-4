@@ -35,9 +35,9 @@ public class MovementState : PlayerState
         direction = controller.is_pressed(Button.Right) ? direction + Vector3.right * Time.deltaTime : direction;
         return direction;
     }
-    public void move(Vector3 input, float dt)
+    public void move(Vector3 input)
     {
-        transform.position += input * dt * speed;
+        transform.position += input * Time.deltaTime * speed;
         curr_look_dir = input != Vector3.zero ? input.normalized : curr_look_dir;
     }
     public void pull_animals()
@@ -104,7 +104,7 @@ public class MovementState : PlayerState
         is_side_transitioning = false;
     }
 
-    public override System.Type act(IController controller, float dt)
+    public override System.Type act(IController controller)
     {
         if (controller.is_down(Button.Down) && 
             animals.occupied() &&
@@ -116,7 +116,7 @@ public class MovementState : PlayerState
         anim.SetBool("moving", use.magnitude != 0.0f);
 
         prev_look_dir = curr_look_dir;
-        move(use, dt);
+        move(use);
 
         if (has_side_switched()) {
             sr.flipX = curr_look_dir.x > 0.0f;

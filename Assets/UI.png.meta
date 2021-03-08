@@ -1,76 +1,73 @@
 fileFormatVersion: 2
-guid: d4320519f62e3ab4f97711de2be4af21
+guid: d71a8fd0164d7fc4dad8c1dc7963eec9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6439561955937296134
-    second: ReaperCharacter_0
+      213: -1557013538026691241
+    second: UI_0
   - first:
-      213: 964083746949426418
-    second: ReaperCharacter_1
+      213: 82707731993968007
+    second: UI_1
   - first:
-      213: 7098819171750538140
-    second: ReaperCharacter_2
+      213: 1080825480604336155
+    second: UI_2
   - first:
-      213: 1002729186274826600
-    second: ReaperCharacter_3
+      213: -9136572144232859775
+    second: UI_3
   - first:
-      213: -7235469079204763589
-    second: ReaperCharacter_4
+      213: 8586885197115800619
+    second: UI_4
   - first:
-      213: 485037822465464019
-    second: ReaperCharacter_5
+      213: 8160775752198118580
+    second: UI_5
   - first:
-      213: -5756420659536544494
-    second: ReaperCharacter_6
+      213: 7448113381798972013
+    second: UI_6
   - first:
-      213: 1083079567343577153
-    second: ReaperCharacter_7
+      213: 7843416716369364892
+    second: UI_7
   - first:
-      213: 7616630037617966294
-    second: ReaperCharacter_8
+      213: -6595680761151332689
+    second: UI_8
   - first:
-      213: -6193181178541791099
-    second: ReaperCharacter_9
+      213: -273060469431498887
+    second: UI_9
   - first:
-      213: -6772073783348689517
-    second: ReaperCharacter_10
+      213: 8391660652416901024
+    second: UI_10
   - first:
-      213: 6597856248330750266
-    second: ReaperCharacter_11
+      213: 9094600903545770030
+    second: UI_11
   - first:
-      213: 3838385336081102014
-    second: ReaperCharacter_12
+      213: -4532114073746202998
+    second: UI_12
   - first:
-      213: -7305524651691731532
-    second: ReaperCharacter_13
+      213: -8346291274449466048
+    second: UI_13
   - first:
-      213: -7198290581447638489
-    second: ReaperCharacter_14
+      213: -343943630576144839
+    second: UI_14
   - first:
-      213: -8764907638934125188
-    second: ReaperCharacter_15
+      213: 7301787903208175943
+    second: UI_15
   - first:
-      213: 2616112996618384302
-    second: ReaperCharacter_16
+      213: 1652299931923453484
+    second: UI_16
   - first:
-      213: 4780296428097795335
-    second: ReaperCharacter_17
+      213: 388057999756033245
+    second: UI_17
   - first:
-      213: -4432956243278349208
-    second: ReaperCharacter_18
+      213: -5481780447360278658
+    second: UI_18
   - first:
-      213: -2946964712353724261
-    second: ReaperCharacter_19
+      213: 228940821244427079
+    second: UI_19
   - first:
-      213: 2241198184116208059
-    second: ReaperCharacter_20
+      213: 6620621745411573659
+    second: UI_20
   - first:
-      213: 1486670909581143936
-    second: ReaperCharacter_21
-  - first:
-      213: -719378358328869096
-    second: walk_5
+      213: -256003546741158619
+    second: UI_21
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -111,8 +108,8 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-  spriteExtrude: 0
-  spriteMeshType: 0
+  spriteExtrude: 1
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -134,10 +131,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -146,10 +143,10 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -158,22 +155,10 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Windows Store Apps
-    maxTextureSize: 2048
-    resizeAlgorithm: 1
-    textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -184,463 +169,463 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ReaperCharacter_0
+      name: UI_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 120
-        width: 40
-        height: 38
+        y: 76
+        width: 15
+        height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 60f13cc0b7bed5950800000000000000
-      internalID: 6439561955937296134
+      spriteID: 755e173cf60646ae0800000000000000
+      internalID: -1557013538026691241
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ReaperCharacter_1
+      name: UI_1
       rect:
         serializedVersion: 2
-        x: 40
-        y: 120
-        width: 40
-        height: 38
+        x: 15
+        y: 76
+        width: 15
+        height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2fce5a65f0d116d00800000000000000
-      internalID: 964083746949426418
+      spriteID: 78dbda97e36d52100800000000000000
+      internalID: 82707731993968007
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ReaperCharacter_2
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 120
-        width: 40
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c9b6ce0fc62148260800000000000000
-      internalID: 7098819171750538140
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ReaperCharacter_3
-      rect:
-        serializedVersion: 2
-        x: 120
-        y: 120
-        width: 40
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 869d3d9d1e86aed00800000000000000
-      internalID: 1002729186274826600
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ReaperCharacter_4
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 120
-        width: 40
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b386da62533769b90800000000000000
-      internalID: -7235469079204763589
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ReaperCharacter_5
-      rect:
-        serializedVersion: 2
-        x: 200
-        y: 120
-        width: 40
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3d6dea664533bb600800000000000000
-      internalID: 485037822465464019
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ReaperCharacter_6
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 120
-        width: 40
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 21dba92b8e51d10b0800000000000000
-      internalID: -5756420659536544494
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ReaperCharacter_7
-      rect:
-        serializedVersion: 2
-        x: 280
-        y: 120
-        width: 40
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1486ffac02fd70f00800000000000000
-      internalID: 1083079567343577153
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ReaperCharacter_8
+      name: UI_2
       rect:
         serializedVersion: 2
         x: 0
-        y: 80
-        width: 40
-        height: 38
+        y: 60
+        width: 15
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6dcf9c12aa4b3b960800000000000000
-      internalID: 7616630037617966294
+      spriteID: b10cc935c0ddffe00800000000000000
+      internalID: 1080825480604336155
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ReaperCharacter_9
+      name: UI_3
       rect:
         serializedVersion: 2
-        x: 40
-        y: 80
-        width: 40
-        height: 38
+        x: 15
+        y: 60
+        width: 15
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 588a16fe7866d0aa0800000000000000
-      internalID: -6193181178541791099
+      spriteID: 187754eda00643180800000000000000
+      internalID: -9136572144232859775
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ReaperCharacter_10
+      name: UI_4
       rect:
         serializedVersion: 2
-        x: 80
-        y: 80
-        width: 40
-        height: 38
+        x: 30
+        y: 60
+        width: 15
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 39504c626c2c402a0800000000000000
-      internalID: -6772073783348689517
+      spriteID: b2cb52d679eba2770800000000000000
+      internalID: 8586885197115800619
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ReaperCharacter_11
+      name: UI_5
       rect:
         serializedVersion: 2
-        x: 120
-        y: 80
-        width: 40
-        height: 38
+        x: 45
+        y: 60
+        width: 15
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a3988d80d4b409b50800000000000000
-      internalID: 6597856248330750266
+      spriteID: 4bcd3691f46e04170800000000000000
+      internalID: 8160775752198118580
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ReaperCharacter_12
+      name: UI_6
       rect:
         serializedVersion: 2
         x: 0
-        y: 40
-        width: 40
-        height: 38
+        y: 45
+        width: 15
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb4be24602fa44530800000000000000
-      internalID: 3838385336081102014
+      spriteID: d6a06f0b8a30d5760800000000000000
+      internalID: 7448113381798972013
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ReaperCharacter_13
+      name: UI_7
       rect:
         serializedVersion: 2
-        x: 40
-        y: 40
-        width: 40
-        height: 38
+        x: 15
+        y: 45
+        width: 15
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b51e0e19009d9a90800000000000000
-      internalID: -7305524651691731532
+      spriteID: c978e8482f969dc60800000000000000
+      internalID: 7843416716369364892
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ReaperCharacter_14
+      name: UI_8
       rect:
         serializedVersion: 2
-        x: 80
-        y: 40
-        width: 40
-        height: 38
+        x: 30
+        y: 45
+        width: 15
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 72206c6bad88a1c90800000000000000
-      internalID: -7198290581447638489
+      spriteID: fae52bb0b4f6774a0800000000000000
+      internalID: -6595680761151332689
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ReaperCharacter_15
+      name: UI_9
       rect:
         serializedVersion: 2
-        x: 120
-        y: 40
-        width: 40
-        height: 38
+        x: 45
+        y: 45
+        width: 15
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c75493cd0facc5680800000000000000
-      internalID: -8764907638934125188
+      spriteID: 977855523f4e53cf0800000000000000
+      internalID: -273060469431498887
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ReaperCharacter_17
+      name: UI_10
       rect:
         serializedVersion: 2
-        x: 40
-        y: 0
-        width: 40
-        height: 38
+        x: 0
+        y: 30
+        width: 15
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70576d53646075240800000000000000
-      internalID: 4780296428097795335
+      spriteID: 0af9ee607ea257470800000000000000
+      internalID: 8391660652416901024
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ReaperCharacter_18
+      name: UI_11
       rect:
         serializedVersion: 2
-        x: 80
-        y: 0
-        width: 40
-        height: 38
+        x: 15
+        y: 30
+        width: 15
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 86c3b8698c9fa72c0800000000000000
-      internalID: -4432956243278349208
+      spriteID: e20dac52653863e70800000000000000
+      internalID: 9094600903545770030
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ReaperCharacter_19
+      name: UI_12
       rect:
         serializedVersion: 2
-        x: 120
-        y: 0
-        width: 40
-        height: 38
+        x: 30
+        y: 30
+        width: 15
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b988b8235374a17d0800000000000000
-      internalID: -2946964712353724261
+      spriteID: a8e1fc81342ba11c0800000000000000
+      internalID: -4532114073746202998
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ReaperCharacter_20
+      name: UI_13
       rect:
         serializedVersion: 2
-        x: 160
-        y: 0
-        width: 40
-        height: 38
+        x: 45
+        y: 30
+        width: 15
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb14f73cfd55a1f10800000000000000
-      internalID: 2241198184116208059
+      spriteID: 04d4f727e440c2c80800000000000000
+      internalID: -8346291274449466048
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ReaperCharacter_21
+      name: UI_14
       rect:
         serializedVersion: 2
-        x: 200
-        y: 0
-        width: 40
-        height: 38
+        x: 0
+        y: 15
+        width: 15
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 08fad77c057b1a410800000000000000
-      internalID: 1486670909581143936
+      spriteID: 93e20cc17111a3bf0800000000000000
+      internalID: -343943630576144839
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ReaperCharacter_16
+      name: UI_15
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 15
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 749b7f35969255560800000000000000
+      internalID: 7301787903208175943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_16
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 15
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2613b8a8062ee610800000000000000
+      internalID: 1652299931923453484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_17
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 15
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddcf4bbd1b8a26500800000000000000
+      internalID: 388057999756033245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_18
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 40
-        height: 38
+        width: 15
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea3b8bfd8ec4e4420800000000000000
-      internalID: 2616112996618384302
+      spriteID: e7f98621abdcce3b0800000000000000
+      internalID: -5481780447360278658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_19
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 0
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74b3cd4c67c5d2300800000000000000
+      internalID: 228940821244427079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_20
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 0
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b97cb7f566c21eb50800000000000000
+      internalID: 6620621745411573659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_21
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 0
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52dc04f612e727cf0800000000000000
+      internalID: -256003546741158619
       vertices: []
       indices: 
       edges: []

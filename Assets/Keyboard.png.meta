@@ -1,76 +1,76 @@
 fileFormatVersion: 2
-guid: d4320519f62e3ab4f97711de2be4af21
+guid: fd6c4095f4cdf7a4bab9bfe90dd9b5ad
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6439561955937296134
-    second: ReaperCharacter_0
+      213: -2823838568841336431
+    second: Keyboard_0
   - first:
-      213: 964083746949426418
-    second: ReaperCharacter_1
+      213: 6085385420470213244
+    second: Keyboard_1
   - first:
-      213: 7098819171750538140
-    second: ReaperCharacter_2
+      213: -577686727893085468
+    second: Keyboard_2
   - first:
-      213: 1002729186274826600
-    second: ReaperCharacter_3
+      213: 9153071815677446063
+    second: Keyboard_3
   - first:
-      213: -7235469079204763589
-    second: ReaperCharacter_4
+      213: -8273527477377572067
+    second: Keyboard_4
   - first:
-      213: 485037822465464019
-    second: ReaperCharacter_5
+      213: -8487786551566072494
+    second: Keyboard_5
   - first:
-      213: -5756420659536544494
-    second: ReaperCharacter_6
+      213: 3753843634913423252
+    second: Keyboard_6
   - first:
-      213: 1083079567343577153
-    second: ReaperCharacter_7
+      213: 6402719276169280715
+    second: Keyboard_7
   - first:
-      213: 7616630037617966294
-    second: ReaperCharacter_8
+      213: -2435546281298495274
+    second: Keyboard_8
   - first:
-      213: -6193181178541791099
-    second: ReaperCharacter_9
+      213: -5987542093376887276
+    second: Keyboard_9
   - first:
-      213: -6772073783348689517
-    second: ReaperCharacter_10
+      213: 6995106176698162816
+    second: Keyboard_10
   - first:
-      213: 6597856248330750266
-    second: ReaperCharacter_11
+      213: 1187537212550703846
+    second: Keyboard_11
   - first:
-      213: 3838385336081102014
-    second: ReaperCharacter_12
+      213: -104301533446479032
+    second: Keyboard_12
   - first:
-      213: -7305524651691731532
-    second: ReaperCharacter_13
+      213: 9029442942846419443
+    second: Keyboard_13
   - first:
-      213: -7198290581447638489
-    second: ReaperCharacter_14
+      213: 6795409371067449872
+    second: Keyboard_14
   - first:
-      213: -8764907638934125188
-    second: ReaperCharacter_15
+      213: 5224451155267696052
+    second: Keyboard_15
   - first:
-      213: 2616112996618384302
-    second: ReaperCharacter_16
+      213: -2728171450271835044
+    second: Keyboard_16
   - first:
-      213: 4780296428097795335
-    second: ReaperCharacter_17
+      213: -5111816237784847471
+    second: Keyboard_17
   - first:
-      213: -4432956243278349208
-    second: ReaperCharacter_18
+      213: 1578856458138360065
+    second: Keyboard_18
   - first:
-      213: -2946964712353724261
-    second: ReaperCharacter_19
+      213: 7261671367060460251
+    second: Keyboard_20
   - first:
-      213: 2241198184116208059
-    second: ReaperCharacter_20
+      213: 2359759391466069042
+    second: Keyboard_21
   - first:
-      213: 1486670909581143936
-    second: ReaperCharacter_21
+      213: -3206160940168010927
+    second: Keyboard_22
   - first:
-      213: -719378358328869096
-    second: walk_5
+      213: 5133221404087000118
+    second: Keyboard_23
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -111,8 +111,8 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-  spriteExtrude: 0
-  spriteMeshType: 0
+  spriteExtrude: 1
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -137,7 +137,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -149,7 +149,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -161,19 +161,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Windows Store Apps
-    maxTextureSize: 2048
-    resizeAlgorithm: 1
-    textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -184,13 +172,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ReaperCharacter_0
+      name: Keyboard_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 120
-        width: 40
-        height: 38
+        y: 65
+        width: 13
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -198,20 +186,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 60f13cc0b7bed5950800000000000000
-      internalID: 6439561955937296134
+      spriteID: 1992a2178c5bfc8d0800000000000000
+      internalID: -2823838568841336431
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ReaperCharacter_1
+      name: Keyboard_1
       rect:
         serializedVersion: 2
-        x: 40
-        y: 120
-        width: 40
-        height: 38
+        x: 13
+        y: 65
+        width: 13
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -219,20 +207,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2fce5a65f0d116d00800000000000000
-      internalID: 964083746949426418
+      spriteID: c7ad7745cc1a37450800000000000000
+      internalID: 6085385420470213244
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ReaperCharacter_2
+      name: Keyboard_2
       rect:
         serializedVersion: 2
-        x: 80
-        y: 120
-        width: 40
-        height: 38
+        x: 26
+        y: 65
+        width: 13
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -240,20 +228,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c9b6ce0fc62148260800000000000000
-      internalID: 7098819171750538140
+      spriteID: 4e299705bf4abf7f0800000000000000
+      internalID: -577686727893085468
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ReaperCharacter_3
+      name: Keyboard_3
       rect:
         serializedVersion: 2
-        x: 120
-        y: 120
-        width: 40
-        height: 38
+        x: 39
+        y: 65
+        width: 13
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -261,104 +249,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 869d3d9d1e86aed00800000000000000
-      internalID: 1002729186274826600
+      spriteID: fa70811425e360f70800000000000000
+      internalID: 9153071815677446063
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ReaperCharacter_4
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 120
-        width: 40
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b386da62533769b90800000000000000
-      internalID: -7235469079204763589
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ReaperCharacter_5
-      rect:
-        serializedVersion: 2
-        x: 200
-        y: 120
-        width: 40
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3d6dea664533bb600800000000000000
-      internalID: 485037822465464019
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ReaperCharacter_6
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 120
-        width: 40
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 21dba92b8e51d10b0800000000000000
-      internalID: -5756420659536544494
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ReaperCharacter_7
-      rect:
-        serializedVersion: 2
-        x: 280
-        y: 120
-        width: 40
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1486ffac02fd70f00800000000000000
-      internalID: 1083079567343577153
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ReaperCharacter_8
+      name: Keyboard_4
       rect:
         serializedVersion: 2
         x: 0
-        y: 80
-        width: 40
-        height: 38
+        y: 52
+        width: 13
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -366,20 +270,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6dcf9c12aa4b3b960800000000000000
-      internalID: 7616630037617966294
+      spriteID: d13e97728968e2d80800000000000000
+      internalID: -8273527477377572067
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ReaperCharacter_9
+      name: Keyboard_5
       rect:
         serializedVersion: 2
-        x: 40
-        y: 80
-        width: 40
-        height: 38
+        x: 13
+        y: 52
+        width: 13
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -387,20 +291,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 588a16fe7866d0aa0800000000000000
-      internalID: -6193181178541791099
+      spriteID: 25501900a13553a80800000000000000
+      internalID: -8487786551566072494
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ReaperCharacter_10
+      name: Keyboard_6
       rect:
         serializedVersion: 2
-        x: 80
-        y: 80
-        width: 40
-        height: 38
+        x: 26
+        y: 52
+        width: 15
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -408,20 +312,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 39504c626c2c402a0800000000000000
-      internalID: -6772073783348689517
+      spriteID: 49f2061b5e4581430800000000000000
+      internalID: 3753843634913423252
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ReaperCharacter_11
+      name: Keyboard_7
       rect:
         serializedVersion: 2
-        x: 120
-        y: 80
-        width: 40
-        height: 38
+        x: 39
+        y: 52
+        width: 13
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -429,20 +333,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a3988d80d4b409b50800000000000000
-      internalID: 6597856248330750266
+      spriteID: bccbd9432470bd850800000000000000
+      internalID: 6402719276169280715
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ReaperCharacter_12
+      name: Keyboard_8
       rect:
         serializedVersion: 2
         x: 0
-        y: 40
-        width: 40
-        height: 38
+        y: 39
+        width: 13
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -450,20 +354,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb4be24602fa44530800000000000000
-      internalID: 3838385336081102014
+      spriteID: 6d8fd2daf83333ed0800000000000000
+      internalID: -2435546281298495274
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ReaperCharacter_13
+      name: Keyboard_9
       rect:
         serializedVersion: 2
-        x: 40
-        y: 40
-        width: 40
-        height: 38
+        x: 13
+        y: 39
+        width: 13
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -471,20 +375,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b51e0e19009d9a90800000000000000
-      internalID: -7305524651691731532
+      spriteID: 416629e703af7eca0800000000000000
+      internalID: -5987542093376887276
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ReaperCharacter_14
+      name: Keyboard_10
       rect:
         serializedVersion: 2
-        x: 80
-        y: 40
-        width: 40
-        height: 38
+        x: 26
+        y: 39
+        width: 13
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -492,20 +396,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 72206c6bad88a1c90800000000000000
-      internalID: -7198290581447638489
+      spriteID: 08e1c3c810c931160800000000000000
+      internalID: 6995106176698162816
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ReaperCharacter_15
+      name: Keyboard_11
       rect:
         serializedVersion: 2
-        x: 120
-        y: 40
-        width: 40
-        height: 38
+        x: 39
+        y: 39
+        width: 13
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -513,20 +417,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c75493cd0facc5680800000000000000
-      internalID: -8764907638934125188
+      spriteID: 6ea64af8dcafa7010800000000000000
+      internalID: 1187537212550703846
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ReaperCharacter_17
+      name: Keyboard_12
       rect:
         serializedVersion: 2
-        x: 40
-        y: 0
-        width: 40
-        height: 38
+        x: 0
+        y: 26
+        width: 13
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -534,20 +438,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70576d53646075240800000000000000
-      internalID: 4780296428097795335
+      spriteID: 843e465de427d8ef0800000000000000
+      internalID: -104301533446479032
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ReaperCharacter_18
+      name: Keyboard_13
       rect:
         serializedVersion: 2
-        x: 80
-        y: 0
-        width: 40
-        height: 38
+        x: 13
+        y: 26
+        width: 13
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -555,20 +459,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 86c3b8698c9fa72c0800000000000000
-      internalID: -4432956243278349208
+      spriteID: 3f1c40834860f4d70800000000000000
+      internalID: 9029442942846419443
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ReaperCharacter_19
+      name: Keyboard_14
       rect:
         serializedVersion: 2
-        x: 120
-        y: 0
-        width: 40
-        height: 38
+        x: 26
+        y: 26
+        width: 13
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -576,20 +480,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b988b8235374a17d0800000000000000
-      internalID: -2946964712353724261
+      spriteID: 01206d1c1d42e4e50800000000000000
+      internalID: 6795409371067449872
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ReaperCharacter_20
+      name: Keyboard_15
       rect:
         serializedVersion: 2
-        x: 160
-        y: 0
-        width: 40
-        height: 38
+        x: 39
+        y: 26
+        width: 13
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -597,20 +501,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb14f73cfd55a1f10800000000000000
-      internalID: 2241198184116208059
+      spriteID: 4b53c1835aaf08840800000000000000
+      internalID: 5224451155267696052
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ReaperCharacter_21
+      name: Keyboard_16
       rect:
         serializedVersion: 2
-        x: 200
-        y: 0
-        width: 40
-        height: 38
+        x: 0
+        y: 13
+        width: 13
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -618,20 +522,62 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 08fad77c057b1a410800000000000000
-      internalID: 1486670909581143936
+      spriteID: c5c5f2c3586932ad0800000000000000
+      internalID: -2728171450271835044
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ReaperCharacter_16
+      name: Keyboard_17
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 13
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19ba2cd173e2f09b0800000000000000
+      internalID: -5111816237784847471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_18
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 13
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1091ba2659939e510800000000000000
+      internalID: 1578856458138360065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_20
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 40
-        height: 38
+        width: 13
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -639,8 +585,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea3b8bfd8ec4e4420800000000000000
-      internalID: 2616112996618384302
+      spriteID: bd2934562a3a6c460800000000000000
+      internalID: 7261671367060460251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_21
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 0
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23c1abbf9ac8fb020800000000000000
+      internalID: 2359759391466069042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_22
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 0
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 153ad84ac9d6183d0800000000000000
+      internalID: -3206160940168010927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_23
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 0
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63c99088baddc3740800000000000000
+      internalID: 5133221404087000118
       vertices: []
       indices: 
       edges: []

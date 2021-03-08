@@ -93,7 +93,7 @@ public abstract class PlayerState : MonoBehaviour
 {
     public abstract void enter();
     public abstract void exit();
-    public abstract System.Type act(IController controller, float dt);
+    public abstract System.Type act(IController controller);
     public virtual void fixed_act(IController controller) { }
     public virtual void on_special(IController controller) { }
 

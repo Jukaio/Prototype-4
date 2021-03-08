@@ -14,8 +14,11 @@ public class CaringState : PlayerState
 
     [SerializeField] private GameObject arrow;
     [SerializeField] private GameObject menu;
-    [SerializeField] private GameObject tool;
+    [SerializeField] private Sprite unhovered;
+    [SerializeField] private Sprite hovered;
     [SerializeField] private Vector2 offset;
+
+    private SpriteRenderer[] menu_sprites = null;
     private AnimalShelter animals;
     private MovementState ms;
     private SpriteRenderer sr;
@@ -39,6 +42,14 @@ public class CaringState : PlayerState
         sr = GetComponent<SpriteRenderer>();
         arrow.SetActive(false);
         menu.SetActive(false);
+
+        menu_sprites = new SpriteRenderer[menu.transform.childCount];
+        var children = menu.transform.GetComponentsInChildren<SpriteRenderer>();
+        for(int i = 0; i < children.Length; i++) {
+            menu_sprites[i] = children[i];
+            menu_sprites[i].sprite = unhovered;
+        }
+        menu_sprites[0].sprite = hovered;
     }
 
     private void increment_index()
@@ -139,8 +150,8 @@ public class CaringState : PlayerState
 
     private void refresh_tool()
     {
-        menu.transform.GetChild(prev_tool).gameObject.SetActive(false);
-        menu.transform.GetChild(curr_tool).gameObject.SetActive(true);
+        menu_sprites[prev_tool].sprite = unhovered;
+        menu_sprites[curr_tool].sprite = hovered;
     }
 
     public bool are_animals_close()
@@ -148,7 +159,7 @@ public class CaringState : PlayerState
         return animals_around_player.Count > 0;
     }
 
-    public override System.Type act(IController controller, float dt)
+    public override System.Type act(IController controller)
     {
         if(animals.empty())
             return typeof(MovementState);
@@ -170,10 +181,6 @@ public class CaringState : PlayerState
     {
         arrow.SetActive(true);
         menu.SetActive(false);
-        for(int i = 0; i < menu.transform.childCount; i++) {
-            menu.transform.GetChild(i).gameObject.SetActive(false);
-        }
-        menu.transform.GetChild(curr_tool).gameObject.SetActive(true);
         refresh_arrow();
         curr_level = State.selection;
         sr.flipX = !sr.flipX;

@@ -49,7 +49,7 @@ public class PlayerSystem : MonoBehaviour
     void dispatch()
     {
         previous = current;
-        current = states[current].act(controller, Time.deltaTime);
+        current = states[current].act(controller);
         if (is_transitioning())
             change_state();
     }
