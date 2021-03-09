@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bf7c34a0dc4e6348bea04faa70406ee, type: 3}
+  m_Name: RabbitSprites
+  m_EditorClassIdentifier: 
+  m_Labels:
+  - m_Name: Idle0
+    m_Hash: 1478176891
+    m_CategoryList:
+    - m_Name: 0
+      m_Hash: -186917087
+      m_Sprite: {fileID: -6195219999470506603, guid: e51ebf3499c977d4986d7e6f50f52e61, type: 3}
+    - m_Name: 1
+      m_Hash: -2082672713
+      m_Sprite: {fileID: 5086801321225794187, guid: e51ebf3499c977d4986d7e6f50f52e61, type: 3}
+    - m_Name: 2
+      m_Hash: 450215437
+      m_Sprite: {fileID: 3380323541794801852, guid: e51ebf3499c977d4986d7e6f50f52e61, type: 3}
+    - m_Name: 3
+      m_Hash: 1842515611
+      m_Sprite: {fileID: 6953052569916712140, guid: e51ebf3499c977d4986d7e6f50f52e61, type: 3}
+  - m_Name: Idle1
+    m_Hash: 790364397
+    m_CategoryList:
+    - m_Name: 0
+      m_Hash: -186917087
+      m_Sprite: {fileID: 5092495861024120055, guid: 72d301cd22b56744e8ad8900ee08db63, type: 3}
+    - m_Name: 1
+      m_Hash: -2082672713
+      m_Sprite: {fileID: 1865572652096044565, guid: 72d301cd22b56744e8ad8900ee08db63, type: 3}
+    - m_Name: 2
+      m_Hash: 450215437
+      m_Sprite: {fileID: -5856381796344776163, guid: 72d301cd22b56744e8ad8900ee08db63, type: 3}
+    - m_Name: 3
+      m_Hash: 1842515611
+      m_Sprite: {fileID: 6440990161094435831, guid: 72d301cd22b56744e8ad8900ee08db63, type: 3}
+  - m_Name: Walk
+    m_Hash: 765711723
+    m_CategoryList:
+    - m_Name: 0
+      m_Hash: -186917087
+      m_Sprite: {fileID: -5275181081253813198, guid: f0fbbc17634518d45b293822c55cb6ff, type: 3}
+    - m_Name: 1
+      m_Hash: -2082672713
+      m_Sprite: {fileID: 2591990336381536649, guid: f0fbbc17634518d45b293822c55cb6ff, type: 3}
+    - m_Name: 2
+      m_Hash: 450215437
+      m_Sprite: {fileID: 3615089572534730728, guid: f0fbbc17634518d45b293822c55cb6ff, type: 3}
+    - m_Name: 3
+      m_Hash: 1842515611
+      m_Sprite: {fileID: -3203320639611673365, guid: f0fbbc17634518d45b293822c55cb6ff, type: 3}
+    - m_Name: 4
+      m_Hash: -206169288
+      m_Sprite: {fileID: -931143928785307300, guid: f0fbbc17634518d45b293822c55cb6ff, type: 3}
+    - m_Name: 5
+      m_Hash: -2068763730
+      m_Sprite: {fileID: -6905339994021187308, guid: f0fbbc17634518d45b293822c55cb6ff, type: 3}
+    - m_Name: 6
+      m_Hash: 498629140
+      m_Sprite: {fileID: 4511024226380358468, guid: f0fbbc17634518d45b293822c55cb6ff, type: 3}
+    - m_Name: 7
+      m_Hash: 1790921346
+      m_Sprite: {fileID: 234855230683725280, guid: f0fbbc17634518d45b293822c55cb6ff, type: 3}

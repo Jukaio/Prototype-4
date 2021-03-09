@@ -1,31 +1,19 @@
 fileFormatVersion: 2
-guid: d53d8c59b00e8a6498c9c567f34c93de
+guid: e51ebf3499c977d4986d7e6f50f52e61
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2878642724653588828
-    second: wolf_walk1 (2)_0
+      213: -6195219999470506603
+    second: BunnyIdle1_0
   - first:
-      213: 6510210377689942570
-    second: wolf_walk1 (2)_1
+      213: 5086801321225794187
+    second: BunnyIdle1_1
   - first:
-      213: -5339735758584387412
-    second: wolf_walk1 (2)_2
+      213: 3380323541794801852
+    second: BunnyIdle1_2
   - first:
-      213: 190144956071734465
-    second: wolf_walk1 (2)_3
-  - first:
-      213: 4056977427731625970
-    second: wolf_walk1 (2)_4
-  - first:
-      213: -7744169092689670124
-    second: wolf_walk1 (2)_5
-  - first:
-      213: -796280950316580278
-    second: wolf_walk1 (2)_6
-  - first:
-      213: 1515951188185695349
-    second: wolf_walk1 (2)_7
+      213: 6953052569916712140
+    second: BunnyIdle1_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -139,139 +127,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: wolf_walk1 (2)_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 48
-        width: 35
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4ae92c191b10d08d0800000000000000
-      internalID: -2878642724653588828
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wolf_walk1 (2)_1
-      rect:
-        serializedVersion: 2
-        x: 35
-        y: 48
-        width: 35
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a2a454f88d9e85a50800000000000000
-      internalID: 6510210377689942570
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wolf_walk1 (2)_2
-      rect:
-        serializedVersion: 2
-        x: 70
-        y: 48
-        width: 35
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ca860236e9275e5b0800000000000000
-      internalID: -5339735758584387412
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wolf_walk1 (2)_3
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 24
-        width: 35
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1ccec7284d783a200800000000000000
-      internalID: 190144956071734465
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wolf_walk1 (2)_4
-      rect:
-        serializedVersion: 2
-        x: 35
-        y: 24
-        width: 35
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2f7b8b9c9774d4830800000000000000
-      internalID: 4056977427731625970
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wolf_walk1 (2)_5
-      rect:
-        serializedVersion: 2
-        x: 70
-        y: 24
-        width: 35
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4105ca59d3f278490800000000000000
-      internalID: -7744169092689670124
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wolf_walk1 (2)_6
+      name: BunnyIdle1_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 35
-        height: 24
+        width: 24
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -279,20 +141,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a4248fec1ba03f4f0800000000000000
-      internalID: -796280950316580278
+      spriteID: 59d2a22fb38260aa0800000000000000
+      internalID: -6195219999470506603
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wolf_walk1 (2)_7
+      name: BunnyIdle1_1
       rect:
         serializedVersion: 2
-        x: 35
+        x: 24
         y: 0
-        width: 35
-        height: 24
+        width: 24
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -300,8 +162,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 574c3a4e29db90510800000000000000
-      internalID: 1515951188185695349
+      spriteID: b82b6a2c9d2f79640800000000000000
+      internalID: 5086801321225794187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BunnyIdle1_2
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb8c19ef95259ee20800000000000000
+      internalID: 3380323541794801852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BunnyIdle1_3
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 0
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc4a08639743e7060800000000000000
+      internalID: 6953052569916712140
       vertices: []
       indices: 
       edges: []

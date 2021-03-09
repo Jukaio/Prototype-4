@@ -1,10 +1,25 @@
 fileFormatVersion: 2
-guid: 65466cc3a833dc744bfc50b80cce1e56
+guid: 25ea7893a725efb41b0996530cecb013
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7567420955604329067
-    second: little_placeholder_0
+      213: -2333998162230795240
+    second: WolfIdle1_0
+  - first:
+      213: 8436393624628753445
+    second: WolfIdle1_1
+  - first:
+      213: -3155181694836931007
+    second: WolfIdle1_2
+  - first:
+      213: 8991308397659929170
+    second: WolfIdle1_3
+  - first:
+      213: 483638058541340946
+    second: WolfIdle1_4
+  - first:
+      213: 8652593268863609691
+    second: WolfIdle1_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -91,7 +106,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: WebGL
+    buildTarget: Windows Store Apps
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -103,7 +118,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Windows Store Apps
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -118,13 +133,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: little_placeholder_0
+      name: WolfIdle1_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 5
-        width: 20
-        height: 20
+        y: 0
+        width: 33
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -132,8 +147,113 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b62a4a4e341e40960800000000000000
-      internalID: 7567420955604329067
+      spriteID: 814a1d99909fb9fd0800000000000000
+      internalID: -2333998162230795240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WolfIdle1_1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 0
+        width: 33
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 524fd5dbd47141570800000000000000
+      internalID: 8436393624628753445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WolfIdle1_2
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 0
+        width: 33
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1460e6527fa8634d0800000000000000
+      internalID: -3155181694836931007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WolfIdle1_3
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 0
+        width: 33
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25ab184895b87cc70800000000000000
+      internalID: 8991308397659929170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WolfIdle1_4
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 0
+        width: 33
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2195737704a36b600800000000000000
+      internalID: 483638058541340946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WolfIdle1_5
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 0
+        width: 33
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5b2d801cbf241870800000000000000
+      internalID: 8652593268863609691
       vertices: []
       indices: 
       edges: []
