@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5bf7c34a0dc4e6348bea04faa70406ee, type: 3}
-  m_Name: RabbitSprites
+  m_Name: BirdSprites
   m_EditorClassIdentifier: 
   m_Labels:
   - m_Name: Idle0
@@ -48,25 +48,25 @@ MonoBehaviour:
     m_CategoryList:
     - m_Name: 0
       m_Hash: -186917087
-      m_Sprite: {fileID: -5275181081253813198, guid: f0fbbc17634518d45b293822c55cb6ff, type: 3}
+      m_Sprite: {fileID: 8705766464507255486, guid: dc8a8b13205144b4985c13e5d9276e69, type: 3}
     - m_Name: 1
       m_Hash: -2082672713
-      m_Sprite: {fileID: 2591990336381536649, guid: f0fbbc17634518d45b293822c55cb6ff, type: 3}
+      m_Sprite: {fileID: -298115052302305517, guid: dc8a8b13205144b4985c13e5d9276e69, type: 3}
     - m_Name: 2
       m_Hash: 450215437
-      m_Sprite: {fileID: 3615089572534730728, guid: f0fbbc17634518d45b293822c55cb6ff, type: 3}
+      m_Sprite: {fileID: -2354159139860109755, guid: dc8a8b13205144b4985c13e5d9276e69, type: 3}
     - m_Name: 3
       m_Hash: 1842515611
-      m_Sprite: {fileID: -3203320639611673365, guid: f0fbbc17634518d45b293822c55cb6ff, type: 3}
+      m_Sprite: {fileID: -8977268316311358894, guid: dc8a8b13205144b4985c13e5d9276e69, type: 3}
     - m_Name: 4
       m_Hash: -206169288
-      m_Sprite: {fileID: -931143928785307300, guid: f0fbbc17634518d45b293822c55cb6ff, type: 3}
+      m_Sprite: {fileID: 7053472127099533623, guid: dc8a8b13205144b4985c13e5d9276e69, type: 3}
     - m_Name: 5
       m_Hash: -2068763730
-      m_Sprite: {fileID: -6905339994021187308, guid: f0fbbc17634518d45b293822c55cb6ff, type: 3}
+      m_Sprite: {fileID: -6300731523580146179, guid: dc8a8b13205144b4985c13e5d9276e69, type: 3}
     - m_Name: 6
       m_Hash: 498629140
-      m_Sprite: {fileID: 4511024226380358468, guid: f0fbbc17634518d45b293822c55cb6ff, type: 3}
+      m_Sprite: {fileID: -6002788507892265032, guid: dc8a8b13205144b4985c13e5d9276e69, type: 3}
     - m_Name: 7
       m_Hash: 1790921346
-      m_Sprite: {fileID: 234855230683725280, guid: f0fbbc17634518d45b293822c55cb6ff, type: 3}
+      m_Sprite: {fileID: -9046864134988225394, guid: dc8a8b13205144b4985c13e5d9276e69, type: 3}
