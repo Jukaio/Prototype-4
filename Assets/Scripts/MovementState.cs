@@ -45,7 +45,6 @@ public class MovementState : PlayerState
         for (int i = 0; i < animals.Count; i++)
         {
             var at = transform.position + (((Vector3)animal_offset * (i + 1)) * (-curr_look_dir.x));
-            //animals.set_position_of(i, at);
             animals.on_move(i, at);
 
         }
@@ -89,14 +88,18 @@ public class MovementState : PlayerState
     private bool run_side_transition()
     {
         timer += Time.deltaTime;
+        if (animals.Count < animal_interpolate_count)
+            animal_interpolate_count = animals.Count;
+
         for (int i = 0; i < animal_interpolate_count; i++)
         {
             var t = timer / transition_time;
             var to = transform.position + (((Vector3)animal_offset * (i + 1)) * (-curr_look_dir.x));
-            //var at = Vector3.Lerp(from_positions[i], to, easing(t));
+
             var at = Vector3.Lerp(from_positions[i], to, easing(t));
             animals.on_move(i, at);
         }
+
         return timer >= transition_time;
     }
     private void exit_side_transition()

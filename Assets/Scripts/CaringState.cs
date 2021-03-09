@@ -11,18 +11,23 @@ public class CaringState : PlayerState
         menu,
         count
     }
-
-    [SerializeField] private GameObject arrow;
+    [SerializeField] private Vector2 menu_arrow_offset;
+    [SerializeField] private GameObject menu_arrow;
     [SerializeField] private GameObject menu;
+
     [SerializeField] private Sprite unhovered;
     [SerializeField] private Sprite hovered;
-    [SerializeField] private Vector2 offset;
+
+    [SerializeField] private Vector2 around_player_arrow_offset;
+    [SerializeField] private GameObject around_player_arrow;
 
     private SpriteRenderer[] menu_sprites = null;
     private AnimalShelter animals;
     private MovementState ms;
     private SpriteRenderer sr;
     private List<AnimalSystem> animals_around_player = new List<AnimalSystem>();
+    private PlayerSystem ps;
+
 
     private State prev_level = 0;
     private State curr_level = 0;
@@ -37,10 +42,12 @@ public class CaringState : PlayerState
 
     void Start()
     {
+        ps = GetComponent<PlayerSystem>();
         animals = GetComponent<AnimalShelter>();
         ms = GetComponent<MovementState>();
         sr = GetComponent<SpriteRenderer>();
-        arrow.SetActive(false);
+        around_player_arrow.SetActive(false);
+        menu_arrow.SetActive(false);
         menu.SetActive(false);
 
         menu_sprites = new SpriteRenderer[menu.transform.childCount];
@@ -131,11 +138,11 @@ public class CaringState : PlayerState
                 return true; //Exit
 
             case State.selection:
-                arrow.SetActive(true);
+                menu_arrow.SetActive(true);
                 menu.SetActive(false);
                 break;
             case State.menu:
-                arrow.SetActive(true);
+                menu_arrow.SetActive(true);
                 menu.SetActive(true);
                 break;
         }
@@ -145,7 +152,7 @@ public class CaringState : PlayerState
     private void refresh_arrow()
     {
         var at = animals.get_position_of(curr_index);
-        arrow.transform.position = at + (Vector3)offset;
+        menu_arrow.transform.position = at + (Vector3)menu_arrow_offset;
     }
 
     private void refresh_tool()
@@ -164,6 +171,8 @@ public class CaringState : PlayerState
         if(animals.empty())
             return typeof(MovementState);
 
+        ms.pull_animals();
+
         handle_inputs(controller);
         if (is_transitioning())
             if(refresh_state()) 
@@ -179,19 +188,22 @@ public class CaringState : PlayerState
 
     public override void enter()
     {
-        arrow.SetActive(true);
+        around_player_arrow.SetActive(false);
+        menu_arrow.SetActive(true);
         menu.SetActive(false);
         refresh_arrow();
         curr_level = State.selection;
         sr.flipX = !sr.flipX;
+        allow_adopting = false;
     }
 
     public override void exit()
     {
-        arrow.SetActive(false);
+        menu_arrow.SetActive(false);
         menu.SetActive(false);
         curr_level = State.close;
         sr.flipX = !sr.flipX;
+        StopCoroutine(block_adoption());
         StartCoroutine(block_adoption());
         refresh_close_animals();
     }
@@ -234,9 +246,9 @@ public class CaringState : PlayerState
         if (animals_close)
         {
             var selection = animals_around_player[animals_around_player.Count - 1];
-            arrow.transform.position = selection.transform.position + Vector3.up * 0.5f;
+            around_player_arrow.transform.position = selection.transform.position - (Vector3)around_player_arrow_offset;
         }
-        arrow.SetActive(animals_close);
+        around_player_arrow.SetActive(animals_close);
     }
     public void on_leaving(AnimalSystem animal)
     {

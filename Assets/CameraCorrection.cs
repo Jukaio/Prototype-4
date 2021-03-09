@@ -22,9 +22,7 @@ public class CameraCorrection : MonoBehaviour
         while (is_running)
         {
             float set_to = GetComponent<Camera>().orthographicSize;
-            foreach (var cam in after)
-            {
-                Debug.Log(set_to);
+            foreach (var cam in after) {
                 cam.orthographicSize = set_to;
             }
             yield return new WaitForSeconds(frequency);

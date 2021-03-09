@@ -9,6 +9,7 @@ public interface Commandable
 
 public class AnimalSystem : MonoBehaviour, Commandable
 {
+    private Collider2D[] colliders;
     private SpriteRenderer sr;
     private Vector3 previous_position;
     private Vector3 look_dir = Vector3.left;
@@ -26,6 +27,7 @@ public class AnimalSystem : MonoBehaviour, Commandable
 
     private List<TimestampMove> positions = new List<TimestampMove>();
 
+    [SerializeField] private float receive_frequency = 0.1f;
     [SerializeField] private float reaction_delay = 0.5f;
     float threshhold = 1.0f;
 
@@ -57,18 +59,21 @@ public class AnimalSystem : MonoBehaviour, Commandable
 
     private void Start()
     {
+        colliders = GetComponents<Collider2D>();
         sr = GetComponent<SpriteRenderer>();
         disolve = GetComponent<Disolve>();
     }
 
-    public void disappear(Disolve.Callback callback = null)
+    public void disappear(GameObject context, Disolve.Callback callback = null)
     {
-        disolve.disappear(callback);
+        disolve.disappear(context, callback);
     }
-    public void appear(Disolve.Callback callback = null)
+    public void appear(GameObject context, Disolve.Callback callback = null)
     {
-        disolve.appear(callback);
+        disolve.appear(context, callback);
     }
+
+    float accumulator = 0.0f;
 
     void Update()
     {
@@ -103,8 +108,24 @@ public class AnimalSystem : MonoBehaviour, Commandable
         }
     }
 
+    public void set_collidable(bool to)
+    {
+        foreach(var collider in colliders)
+        {
+            collider.enabled = to;
+        }
+    }
+
+    float last_time = 0.0f;
     public void on_move(Vector3 position)
     {
+        accumulator += (Time.time - last_time);
+
+        last_time = Time.time;
+        if (accumulator < receive_frequency)
+            return;
+
+        accumulator -= receive_frequency;
         positions.Add(new TimestampMove(position, Time.time));
     }
 

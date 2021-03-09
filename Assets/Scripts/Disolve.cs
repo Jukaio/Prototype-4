@@ -6,8 +6,8 @@ public class Disolve : MonoBehaviour
 {
     public interface Callback
     {
-        public abstract void on_appear();
-        public abstract void on_disappear();
+        public abstract void on_appear(GameObject context);
+        public abstract void on_disappear(GameObject context);
     }
 
     Material material;
@@ -20,17 +20,17 @@ public class Disolve : MonoBehaviour
         material = GetComponent<SpriteRenderer>().material;
     }
 
-    public void disappear(Callback callback = null)
+    public void disappear(GameObject context, Callback callback = null)
     {
-        StartCoroutine(disappearing(callback));
+        StartCoroutine(disappearing(callback, context));
     }
 
-    public void appear(Callback callback = null)
+    public void appear(GameObject context, Callback callback = null)
     {
-        StartCoroutine(appearing(callback));
+        StartCoroutine(appearing(callback, context));
     }
 
-    IEnumerator disappearing(Callback callback)
+    IEnumerator disappearing(Callback callback, GameObject context)
     {
         // if already disolving
         if (isDisolving && fade > 0)
@@ -53,10 +53,10 @@ public class Disolve : MonoBehaviour
         // Exit
         fade = 0f;
         isDisolving = false;
-        if (callback != null) callback.on_disappear();
+        if (callback != null) callback.on_disappear(context);
     }
 
-    IEnumerator appearing(Callback callback)
+    IEnumerator appearing(Callback callback, GameObject context)
     {
         // if already disolving
         if (isDisolving && fade < 1.0f) {
@@ -77,6 +77,6 @@ public class Disolve : MonoBehaviour
         // Exit
         fade = 1f;
         isDisolving = false;
-        if (callback != null) callback.on_appear();
+        if (callback != null) callback.on_appear(context);
     }
 }

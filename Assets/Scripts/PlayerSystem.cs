@@ -10,11 +10,11 @@ public class PlayerSystem : MonoBehaviour
     [HideInInspector] private Controller fixed_controller;
     [HideInInspector] private Controller controller;
 
-    public bool in_menu()
+    public bool in_caring_state()
     {
         return current.GetType() == typeof(CaringState);
     }
-    public bool in_control()
+    public bool in_movement_state()
     {
         return current.GetType() == typeof(MovementState);
     }
