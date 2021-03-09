@@ -13,6 +13,7 @@ public interface Emotional
     public abstract void on_shelter_enter(AnimalShelter shelter, InnerState state);
     public abstract void on_shelter_exit(AnimalShelter shelter, InnerState state);
     public abstract void on_update(AnimalShelter shelter, InnerState state);
+    public abstract void on_animation(Vector3 look_dir);
     public abstract void on_pat(InnerState state);
     public abstract void on_waiting(InnerState state);
 }
@@ -297,6 +298,8 @@ public abstract class AnimalSystem : MonoBehaviour, Commandable, Emotional
 
     public Vector3 get_last_position()
     {
+        if (positions.Count - 1 < 0)
+            return transform.position;
         return positions[positions.Count - 1].position;
     }
     private TimestampMove[] find_pair_at(float time)
@@ -325,6 +328,7 @@ public abstract class AnimalSystem : MonoBehaviour, Commandable, Emotional
         sr = GetComponent<SpriteRenderer>();
         disolve = GetComponent<Disolve>();
         on_start(inner_state);
+        previous_position = transform.position;
     }
 
     bool is_emotion_playing = false;
@@ -334,6 +338,7 @@ public abstract class AnimalSystem : MonoBehaviour, Commandable, Emotional
     {
         is_emotion_playing = true;
         StartCoroutine(play_animation());
+        previous_position = transform.position;
     }
     private void OnDisable()
     {
@@ -406,6 +411,9 @@ public abstract class AnimalSystem : MonoBehaviour, Commandable, Emotional
             sr.flipX = dir > 0.0f;
             on_waiting(inner_state);
         }
+
+        on_animation(transform.position - previous_position);
+
     }
     public void set_collidable(bool to)
     {
@@ -423,7 +431,9 @@ public abstract class AnimalSystem : MonoBehaviour, Commandable, Emotional
             return;
 
         accumulator -= receive_frequency;
-        positions.Add(new TimestampMove(position, Time.time));
+        var pos = transform.position;
+        pos.x = position.x;
+        positions.Add(new TimestampMove(pos, Time.time));
     }
 
 
@@ -477,4 +487,5 @@ public abstract class AnimalSystem : MonoBehaviour, Commandable, Emotional
     public abstract void on_update(AnimalShelter shelter, InnerState state);
     public abstract void on_pat(InnerState state);
     public abstract void on_waiting(InnerState state);
+    public abstract void on_animation(Vector3 look_dir);
 }

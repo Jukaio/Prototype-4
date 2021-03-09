@@ -27,4 +27,9 @@ public class Wolf : AnimalSystem
     public override void on_waiting(InnerState state)
     {
     }
+
+    public override void on_animation(Vector3 look_dir)
+    {
+        throw new System.NotImplementedException();
+    }
 }

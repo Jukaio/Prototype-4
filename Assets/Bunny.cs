@@ -4,6 +4,14 @@ using UnityEngine;
 
 public class Bunny : AnimalSystem
 {
+    private Animator anim;
+
+    public void play_random_idle()
+    {
+        if (Random.Range(0, 5) == 0)
+            anim.Play("bunny_idle1");
+    }
+
     public override void on_pat(InnerState state)
     {
         inner_state.change(InnerState.Emotion.Loved, 1.0f);
@@ -12,6 +20,8 @@ public class Bunny : AnimalSystem
 
     public override void on_start(InnerState state)
     {
+        anim = GetComponent<Animator>();
+
         state.set(InnerState.Emotion.Loved, 0.5f);
     }
     public InnerState.Emotion emotion;
@@ -45,5 +55,10 @@ public class Bunny : AnimalSystem
     public override void on_waiting(InnerState state)
     {
         set_animation(emotion);
+    }
+
+    public override void on_animation(Vector3 velocity)
+    {
+        anim.SetBool("moving", velocity.magnitude > 0.0f);
     }
 }
