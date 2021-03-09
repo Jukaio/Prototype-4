@@ -36,8 +36,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Fade: 1
+    - Vector1_db22c957775b491e81fd2c8cd83d47d9: 0.045
+    - _Fade: 1.25
     - _OutlineThickness: 1
-    - _Scale: 10
-    m_Colors: []
+    - _Scale: 40
+    m_Colors:
+    - Color_05104e5b02844c4894a79d384957a587: {r: 0.4878059, g: 2.522314, b: 1.900331, a: 1}
   m_BuildTextureStacks: []
