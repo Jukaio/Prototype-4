@@ -23,7 +23,8 @@ public class AnimalShelter : MonoBehaviour
         {
             var animal = context.GetComponent<AnimalSystem>();
             animal.set_collidable(false);
-            shelter.animals.Remove(animal);
+            shelter.abadondon(animal);
+            animal.gameObject.SetActive(false);
         }
     }
     public class AnimalAdder : Disolve.Callback
@@ -53,7 +54,11 @@ public class AnimalShelter : MonoBehaviour
     [SerializeField] private List<AnimalSystem> animals = new List<AnimalSystem>();
     public int Count { get{ return animals.Count; } }
 
-    bool has_animal(int at)
+    public AnimalSystem get(int index)
+    {
+        return animals[index];
+    }
+    public bool has_animal(int at)
     {
         if (empty())
             return false;
@@ -75,14 +80,17 @@ public class AnimalShelter : MonoBehaviour
     public void adopt(AnimalSystem animal)
     {
         animal.disappear(animal.gameObject, adder);
+        animal.on_adopt(this);
     }
 
     public void abadondon(AnimalSystem animal)
     {
+        animal.on_abandon(this);
         animals.Remove(animal);
     }
     public void abadondon(int index)
     {
+        animals[index].on_abandon(this);
         animals.RemoveAt(index);
     }
 
@@ -118,7 +126,7 @@ public class AnimalShelter : MonoBehaviour
 
     public void on_move(int index, Vector3 target)
     {
-        if (index < 0) {
+        if (index < 0 || !has_animal(index)) {
             return;
         }
 
@@ -132,6 +140,22 @@ public class AnimalShelter : MonoBehaviour
 
     private void Update()
     {
+        Stack<int> to_remove = new Stack<int>();
+        for(int i = 0; i < animals.Count; i++)
+        {
+            if (animals[i] != null) {
+                animals[i].update(this);
+            }
+            else{
+                to_remove.Push(i);
+            }
+        }
+        // Clean up if dirty nulls
+        foreach(int i in to_remove) {
+            animals.RemoveAt(i);
+        }
+
+
         if(Input.GetKeyDown(KeyCode.K))
         {
             kill(animals[0]);

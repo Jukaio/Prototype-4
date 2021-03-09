@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PlayerSystem : MonoBehaviour
 {
+    public static PlayerSystem Main { get; private set; }
+
     [HideInInspector] private Dictionary<System.Type, PlayerState> states;
     [HideInInspector] private System.Type previous;
     [HideInInspector] private System.Type current;
@@ -19,6 +21,10 @@ public class PlayerSystem : MonoBehaviour
         return current.GetType() == typeof(MovementState);
     }
 
+    private void Awake()
+    {
+        Main = this;
+    }
 
     void Start()
     {
