@@ -935,7 +935,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed8b1ae4e4e52b34ea557c1c11e076fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CategoryHash: 1.8625731e-11
+  m_CategoryHash: 1.4188446e-10
   m_labelHash: -1.3936018e+32
 --- !u!114 &349947522
 MonoBehaviour:
@@ -998,7 +998,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0}
-    oldSize: {x: 0.24, y: 0.24}
+    oldSize: {x: 0.24, y: 0.18}
     newSize: {x: 0.24, y: 0.18}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1042,7 +1042,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 03569e327bf8ecd4c9ae3682f4635882, type: 2}
+  - {fileID: 2100000, guid: 077a2cc44b8cce241a287efcd72f22fd, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1063,7 +1063,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -5275181081253813198, guid: f0fbbc17634518d45b293822c55cb6ff, type: 3}
+  m_Sprite: {fileID: 5092495861024120055, guid: 72d301cd22b56744e8ad8900ee08db63, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
