@@ -81,8 +81,14 @@ public class CaringState : PlayerState
     private void handle_inputs(IController controller)
     {
         prev_level = curr_level;
-        if (controller.is_down(Button.Down)) curr_level++;
-        if (controller.is_down(Button.Up)) curr_level--;
+        if (controller.is_down(Button.Down) && !is_in_menu()) {
+            curr_level++;
+            return;
+        };
+        if (controller.is_down(Button.Up)) {
+            curr_level--;
+            return;
+        };
         curr_level = (State)Mathf.Clamp((int)curr_level, 0, max);
 
         if (is_selecting())
@@ -106,6 +112,10 @@ public class CaringState : PlayerState
                 decrement_tool();
             if (controller.is_down(Button.Right))
                 increment_tool();
+            if (controller.is_down(Button.Down)) {
+                menu.transform.GetChild(curr_tool).GetComponent<MenuEntry>()
+                    .use(animals.get(curr_index));
+            }
         }
     }
     private bool is_transitioning()
