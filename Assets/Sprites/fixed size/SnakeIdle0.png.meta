@@ -1,55 +1,19 @@
 fileFormatVersion: 2
-guid: dc8a8b13205144b4985c13e5d9276e69
+guid: 6ea410dcc5cf98b43a45e1645e5286d8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3454296307846074988
-    second: bird_walk_0
+      213: 6930872020304835708
+    second: SnakeIdle0_0
   - first:
-      213: -3385570772472461612
-    second: bird_walk_1
+      213: -5971622840501776952
+    second: SnakeIdle0_1
   - first:
-      213: 793494528305868057
-    second: bird_walk_2
+      213: -3705817176047540146
+    second: SnakeIdle0_2
   - first:
-      213: 8747508164114371575
-    second: bird_walk_3
-  - first:
-      213: 9101235288629426275
-    second: bird_walk_4
-  - first:
-      213: 2187740871330353551
-    second: bird_walk_5
-  - first:
-      213: 8106288401118024627
-    second: bird_walk_6
-  - first:
-      213: 3942415554279094256
-    second: bird_walk_7
-  - first:
-      213: 8705766464507255486
-    second: BirdWalk_0
-  - first:
-      213: -298115052302305517
-    second: BirdWalk_1
-  - first:
-      213: -2354159139860109755
-    second: BirdWalk_2
-  - first:
-      213: -8977268316311358894
-    second: BirdWalk_3
-  - first:
-      213: 7053472127099533623
-    second: BirdWalk_4
-  - first:
-      213: -6300731523580146179
-    second: BirdWalk_5
-  - first:
-      213: -6002788507892265032
-    second: BirdWalk_6
-  - first:
-      213: -9046864134988225394
-    second: BirdWalk_7
+      213: 4182323404215888065
+    second: SnakeIdle0_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -163,13 +127,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BirdWalk_0
+      name: SnakeIdle0_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 20
-        height: 17
+        width: 28
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -177,20 +141,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eba967e697811d870800000000000000
-      internalID: 8705766464507255486
+      spriteID: c74b6f191676f2060800000000000000
+      internalID: 6930872020304835708
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BirdWalk_1
+      name: SnakeIdle0_1
       rect:
         serializedVersion: 2
-        x: 20
+        x: 28
         y: 0
-        width: 20
-        height: 17
+        width: 28
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -198,20 +162,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 317f25d70f1ecdbf0800000000000000
-      internalID: -298115052302305517
+      spriteID: 8cd48436aa8802da0800000000000000
+      internalID: -5971622840501776952
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BirdWalk_2
+      name: SnakeIdle0_2
       rect:
         serializedVersion: 2
-        x: 40
+        x: 56
         y: 0
-        width: 20
-        height: 17
+        width: 28
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -219,20 +183,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 54626e33cb8545fd0800000000000000
-      internalID: -2354159139860109755
+      spriteID: e482523a9ea429cc0800000000000000
+      internalID: -3705817176047540146
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BirdWalk_3
+      name: SnakeIdle0_3
       rect:
         serializedVersion: 2
-        x: 60
+        x: 84
         y: 0
-        width: 20
-        height: 17
+        width: 28
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -240,92 +204,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 25274e8a7065a6380800000000000000
-      internalID: -8977268316311358894
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BirdWalk_4
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 0
-        width: 20
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 739f2e85787f2e160800000000000000
-      internalID: 7053472127099533623
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BirdWalk_5
-      rect:
-        serializedVersion: 2
-        x: 100
-        y: 0
-        width: 20
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dfd46efdf0e4f88a0800000000000000
-      internalID: -6300731523580146179
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BirdWalk_6
-      rect:
-        serializedVersion: 2
-        x: 120
-        y: 0
-        width: 20
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8bfc84df7afc1bca0800000000000000
-      internalID: -6002788507892265032
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BirdWalk_7
-      rect:
-        serializedVersion: 2
-        x: 140
-        y: 0
-        width: 20
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e842ec66005137280800000000000000
-      internalID: -9046864134988225394
+      spriteID: 1c8271c2af89a0a30800000000000000
+      internalID: 4182323404215888065
       vertices: []
       indices: 
       edges: []

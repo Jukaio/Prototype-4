@@ -12,4 +12,46 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bf7c34a0dc4e6348bea04faa70406ee, type: 3}
   m_Name: SnakeSprites
   m_EditorClassIdentifier: 
-  m_Labels: []
+  m_Labels:
+  - m_Name: Idle0
+    m_Hash: 1478176891
+    m_CategoryList:
+    - m_Name: 0
+      m_Hash: -186917087
+      m_Sprite: {fileID: 6930872020304835708, guid: 6ea410dcc5cf98b43a45e1645e5286d8, type: 3}
+    - m_Name: 1
+      m_Hash: -2082672713
+      m_Sprite: {fileID: -5971622840501776952, guid: 6ea410dcc5cf98b43a45e1645e5286d8, type: 3}
+    - m_Name: 2
+      m_Hash: 450215437
+      m_Sprite: {fileID: -3705817176047540146, guid: 6ea410dcc5cf98b43a45e1645e5286d8, type: 3}
+    - m_Name: 3
+      m_Hash: 1842515611
+      m_Sprite: {fileID: 4182323404215888065, guid: 6ea410dcc5cf98b43a45e1645e5286d8, type: 3}
+  - m_Name: Walk
+    m_Hash: 765711723
+    m_CategoryList:
+    - m_Name: 0
+      m_Hash: -186917087
+      m_Sprite: {fileID: 7648727512846151094, guid: 8e095c03fb741084faf98bd1cc549589, type: 3}
+    - m_Name: 1
+      m_Hash: -2082672713
+      m_Sprite: {fileID: 2959092120660414764, guid: 8e095c03fb741084faf98bd1cc549589, type: 3}
+    - m_Name: 2
+      m_Hash: 450215437
+      m_Sprite: {fileID: -1575571605713457888, guid: 8e095c03fb741084faf98bd1cc549589, type: 3}
+    - m_Name: 3
+      m_Hash: 1842515611
+      m_Sprite: {fileID: 4968257681461485034, guid: 8e095c03fb741084faf98bd1cc549589, type: 3}
+    - m_Name: 4
+      m_Hash: -206169288
+      m_Sprite: {fileID: -4111291418275280146, guid: 8e095c03fb741084faf98bd1cc549589, type: 3}
+    - m_Name: 5
+      m_Hash: -2068763730
+      m_Sprite: {fileID: 2241564222137489741, guid: 8e095c03fb741084faf98bd1cc549589, type: 3}
+    - m_Name: 6
+      m_Hash: 498629140
+      m_Sprite: {fileID: 8465250449901355362, guid: 8e095c03fb741084faf98bd1cc549589, type: 3}
+    - m_Name: 7
+      m_Hash: 1790921346
+      m_Sprite: {fileID: 7421776591328079956, guid: 8e095c03fb741084faf98bd1cc549589, type: 3}

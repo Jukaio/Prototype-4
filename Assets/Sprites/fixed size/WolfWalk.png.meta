@@ -1,31 +1,7 @@
 fileFormatVersion: 2
-guid: d53d8c59b00e8a6498c9c567f34c93de
+guid: 69dff215262c4aa458bcf3bf52538a78
 TextureImporter:
   internalIDToNameTable:
-  - first:
-      213: -2878642724653588828
-    second: wolf_walk1 (2)_0
-  - first:
-      213: 6510210377689942570
-    second: wolf_walk1 (2)_1
-  - first:
-      213: -5339735758584387412
-    second: wolf_walk1 (2)_2
-  - first:
-      213: 190144956071734465
-    second: wolf_walk1 (2)_3
-  - first:
-      213: 4056977427731625970
-    second: wolf_walk1 (2)_4
-  - first:
-      213: -7744169092689670124
-    second: wolf_walk1 (2)_5
-  - first:
-      213: -796280950316580278
-    second: wolf_walk1 (2)_6
-  - first:
-      213: 1515951188185695349
-    second: wolf_walk1 (2)_7
   - first:
       213: 8274571015283779076
     second: WolfWalk_0
@@ -50,9 +26,6 @@ TextureImporter:
   - first:
       213: -7967871135003971440
     second: WolfWalk_7
-  - first:
-      213: -3581275015971662784
-    second: WolfWalk_8
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -170,11 +143,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 51
-        width: 35
-        height: 21
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        y: 48
+        width: 36
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -190,12 +163,12 @@ TextureImporter:
       name: WolfWalk_1
       rect:
         serializedVersion: 2
-        x: 35
-        y: 51
-        width: 35
-        height: 21
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 36
+        y: 48
+        width: 36
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -211,12 +184,12 @@ TextureImporter:
       name: WolfWalk_2
       rect:
         serializedVersion: 2
-        x: 70
-        y: 51
-        width: 35
-        height: 21
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 72
+        y: 48
+        width: 36
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -233,11 +206,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 27
-        width: 35
-        height: 21
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        y: 24
+        width: 36
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -253,12 +226,12 @@ TextureImporter:
       name: WolfWalk_4
       rect:
         serializedVersion: 2
-        x: 35
-        y: 27
-        width: 35
-        height: 21
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 36
+        y: 24
+        width: 36
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -274,12 +247,12 @@ TextureImporter:
       name: WolfWalk_5
       rect:
         serializedVersion: 2
-        x: 70
-        y: 27
-        width: 35
-        height: 21
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 72
+        y: 24
+        width: 36
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -296,11 +269,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 3
-        width: 35
-        height: 21
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        y: 0
+        width: 36
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -316,12 +289,12 @@ TextureImporter:
       name: WolfWalk_7
       rect:
         serializedVersion: 2
-        x: 35
-        y: 3
-        width: 35
-        height: 21
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 36
+        y: 0
+        width: 36
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

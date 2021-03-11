@@ -1,25 +1,31 @@
 fileFormatVersion: 2
-guid: a82634313c557824fa01619bda460ef7
+guid: 8e095c03fb741084faf98bd1cc549589
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5711355865509689143
-    second: WolfIdle2_0
+      213: 7648727512846151094
+    second: SnakeWalk_0
   - first:
-      213: 7176672783275564653
-    second: WolfIdle2_1
+      213: 2959092120660414764
+    second: SnakeWalk_1
   - first:
-      213: -7489398315233126667
-    second: WolfIdle2_2
+      213: -1575571605713457888
+    second: SnakeWalk_2
   - first:
-      213: -7429205241097389379
-    second: WolfIdle2_3
+      213: 4968257681461485034
+    second: SnakeWalk_3
   - first:
-      213: 2038251024586161666
-    second: WolfIdle2_4
+      213: -4111291418275280146
+    second: SnakeWalk_4
   - first:
-      213: 388774335873470155
-    second: WolfIdle2_5
+      213: 2241564222137489741
+    second: SnakeWalk_5
+  - first:
+      213: 8465250449901355362
+    second: SnakeWalk_6
+  - first:
+      213: 7421776591328079956
+    second: SnakeWalk_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -133,127 +139,169 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: WolfIdle2_0
+      name: SnakeWalk_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 33
-        height: 21
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c88372b9103db0b0800000000000000
-      internalID: -5711355865509689143
+      spriteID: 6bda3f2f52db52a60800000000000000
+      internalID: 7648727512846151094
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WolfIdle2_1
+      name: SnakeWalk_1
       rect:
         serializedVersion: 2
-        x: 33
+        x: 32
         y: 0
-        width: 33
-        height: 21
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d6e9a5c6fd9a89360800000000000000
-      internalID: 7176672783275564653
+      spriteID: c211f951b9ec01920800000000000000
+      internalID: 2959092120660414764
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WolfIdle2_2
+      name: SnakeWalk_2
       rect:
         serializedVersion: 2
-        x: 66
+        x: 64
         y: 0
-        width: 33
-        height: 21
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5f6de1fa9ef401890800000000000000
-      internalID: -7489398315233126667
+      spriteID: 02de14be8f1722ae0800000000000000
+      internalID: -1575571605713457888
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WolfIdle2_3
+      name: SnakeWalk_3
       rect:
         serializedVersion: 2
-        x: 99
+        x: 96
         y: 0
-        width: 33
-        height: 21
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dba7be0e13926e890800000000000000
-      internalID: -7429205241097389379
+      spriteID: aed1e10d90cc2f440800000000000000
+      internalID: 4968257681461485034
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WolfIdle2_4
+      name: SnakeWalk_4
       rect:
         serializedVersion: 2
-        x: 132
+        x: 128
         y: 0
-        width: 33
-        height: 21
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 20eb88bf182594c10800000000000000
-      internalID: 2038251024586161666
+      spriteID: eea0795dc32c1f6c0800000000000000
+      internalID: -4111291418275280146
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WolfIdle2_5
+      name: SnakeWalk_5
       rect:
         serializedVersion: 2
-        x: 165
+        x: 160
         y: 0
-        width: 33
-        height: 21
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bcec68bd234356500800000000000000
-      internalID: 388774335873470155
+      spriteID: d49dab1a8c2ab1f10800000000000000
+      internalID: 2241564222137489741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnakeWalk_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2610611fe6c9a7570800000000000000
+      internalID: 8465250449901355362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnakeWalk_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4507b60dc727ff660800000000000000
+      internalID: 7421776591328079956
       vertices: []
       indices: 
       edges: []

@@ -1,25 +1,25 @@
 fileFormatVersion: 2
-guid: 25ea7893a725efb41b0996530cecb013
+guid: fabff1c9a44a4c2479d4a004a33ef37e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2333998162230795240
-    second: WolfIdle1_0
+      213: -516241939266622199
+    second: WolfIdle0_0
   - first:
-      213: 8436393624628753445
-    second: WolfIdle1_1
+      213: 7223606518446030299
+    second: WolfIdle0_1
   - first:
-      213: -3155181694836931007
-    second: WolfIdle1_2
+      213: -7982437233379662928
+    second: WolfIdle0_2
   - first:
-      213: 8991308397659929170
-    second: WolfIdle1_3
+      213: 1917187000501245336
+    second: WolfIdle0_3
   - first:
-      213: 483638058541340946
-    second: WolfIdle1_4
+      213: -3694191294870655649
+    second: WolfIdle0_4
   - first:
-      213: 8652593268863609691
-    second: WolfIdle1_5
+      213: -8353199672947241436
+    second: WolfIdle0_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -133,127 +133,127 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: WolfIdle1_0
+      name: WolfIdle0_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 33
-        height: 21
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 814a1d99909fb9fd0800000000000000
-      internalID: -2333998162230795240
+      spriteID: 90daadff0b0f5d8f0800000000000000
+      internalID: -516241939266622199
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WolfIdle1_1
+      name: WolfIdle0_1
       rect:
         serializedVersion: 2
-        x: 33
+        x: 34
         y: 0
-        width: 33
-        height: 21
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 524fd5dbd47141570800000000000000
-      internalID: 8436393624628753445
+      spriteID: bddfb213bd76f3460800000000000000
+      internalID: 7223606518446030299
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WolfIdle1_2
+      name: WolfIdle0_2
       rect:
         serializedVersion: 2
-        x: 66
+        x: 68
         y: 0
-        width: 33
-        height: 21
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1460e6527fa8634d0800000000000000
-      internalID: -3155181694836931007
+      spriteID: 0b3ad8601afa83190800000000000000
+      internalID: -7982437233379662928
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WolfIdle1_3
+      name: WolfIdle0_3
       rect:
         serializedVersion: 2
-        x: 99
+        x: 102
         y: 0
-        width: 33
-        height: 21
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 25ab184895b87cc70800000000000000
-      internalID: 8991308397659929170
+      spriteID: 8959fd45b673b9a10800000000000000
+      internalID: 1917187000501245336
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WolfIdle1_4
+      name: WolfIdle0_4
       rect:
         serializedVersion: 2
-        x: 132
+        x: 136
         y: 0
-        width: 33
-        height: 21
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2195737704a36b600800000000000000
-      internalID: 483638058541340946
+      spriteID: f5de4e807989bbcc0800000000000000
+      internalID: -3694191294870655649
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WolfIdle1_5
+      name: WolfIdle0_5
       rect:
         serializedVersion: 2
-        x: 165
+        x: 170
         y: 0
-        width: 33
-        height: 21
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b5b2d801cbf241870800000000000000
-      internalID: 8652593268863609691
+      spriteID: 42e02149729731c80800000000000000
+      internalID: -8353199672947241436
       vertices: []
       indices: 
       edges: []
