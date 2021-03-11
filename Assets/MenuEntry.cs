@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class MenuEntry : MonoBehaviour
 {
-    public virtual void use(AnimalSystem selection)
+    
+
+    public virtual void use(AnimalSystem selection, int index)
     {
         Debug.Log("Using...");
     }

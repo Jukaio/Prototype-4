@@ -4,64 +4,70 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 7344655574141061887
-    second: Lovely0
+    second: FoodEmotes-Sheet_0
   - first:
       213: -1170682539690966351
-    second: Lovely1
+    second: FoodEmotes-Sheet_1
   - first:
       213: 4998658344526802579
-    second: Sad0
+    second: FoodEmotes-Sheet_2
   - first:
       213: 7191890754028896776
-    second: Sad1
+    second: FoodEmotes-Sheet_3
   - first:
       213: -6193375748740911210
-    second: Disappointed0
+    second: FoodEmotes-Sheet_4
   - first:
       213: 105110051880308423
-    second: Disappointed1
+    second: FoodEmotes-Sheet_5
   - first:
       213: 1457568767260597434
-    second: Happy0
+    second: FoodEmotes-Sheet_6
   - first:
       213: -8467039207911997996
-    second: Happy1
+    second: FoodEmotes-Sheet_7
   - first:
       213: -214095156171169459
-    second: Angry0
+    second: FoodEmotes-Sheet_8
   - first:
       213: 4582516024335253362
-    second: Angry1
+    second: FoodEmotes-Sheet_9
   - first:
       213: 6309871699112975140
-    second: Fear0
+    second: FoodEmotes-Sheet_10
   - first:
       213: -6920585427445690159
-    second: Fear1
+    second: FoodEmotes-Sheet_11
   - first:
       213: 163480308729563093
-    second: Meat0
+    second: FoodEmotes-Sheet_12
   - first:
       213: -9161573850968703875
-    second: Meat1
+    second: FoodEmotes-Sheet_13
   - first:
       213: 474416877226786900
-    second: Apple0
+    second: FoodEmotes-Sheet_14
   - first:
       213: 6984757190243365591
-    second: Apple1
+    second: FoodEmotes-Sheet_15
   - first:
       213: 1372282704748717483
-    second: Social0
+    second: FoodEmotes-Sheet_16
   - first:
       213: 2692770797528878266
-    second: Social1
+    second: FoodEmotes-Sheet_17
   - first:
       213: -2235236718334585865
-    second: Love0
+    second: FoodEmotes-Sheet_18
   - first:
       213: 7081355669172805447
-    second: Love1
+    second: FoodEmotes-Sheet_19
+  - first:
+      213: -2348314209627537493
+    second: FoodEmotes-Sheet_20
+  - first:
+      213: -3052097201513325903
+    second: FoodEmotes-Sheet_21
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -163,13 +169,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Lovely0
+      name: FoodEmotes-Sheet_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 108
-        width: 15
-        height: 27
+        y: 140
+        width: 16
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,13 +190,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lovely1
+      name: FoodEmotes-Sheet_1
       rect:
         serializedVersion: 2
-        x: 15
-        y: 108
-        width: 15
-        height: 27
+        x: 16
+        y: 140
+        width: 16
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -205,13 +211,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sad0
+      name: FoodEmotes-Sheet_2
       rect:
         serializedVersion: 2
-        x: 30
-        y: 108
-        width: 15
-        height: 27
+        x: 32
+        y: 140
+        width: 16
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,13 +232,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sad1
+      name: FoodEmotes-Sheet_3
       rect:
         serializedVersion: 2
-        x: 45
-        y: 108
-        width: 15
-        height: 27
+        x: 48
+        y: 140
+        width: 16
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -247,13 +253,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Disappointed0
+      name: FoodEmotes-Sheet_4
       rect:
         serializedVersion: 2
         x: 0
-        y: 81
-        width: 15
-        height: 27
+        y: 112
+        width: 16
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -268,13 +274,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Disappointed1
+      name: FoodEmotes-Sheet_5
       rect:
         serializedVersion: 2
-        x: 15
-        y: 81
-        width: 15
-        height: 27
+        x: 16
+        y: 112
+        width: 16
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -289,13 +295,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Happy0
+      name: FoodEmotes-Sheet_6
       rect:
         serializedVersion: 2
-        x: 30
-        y: 81
-        width: 15
-        height: 27
+        x: 32
+        y: 112
+        width: 16
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -310,13 +316,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Happy1
+      name: FoodEmotes-Sheet_7
       rect:
         serializedVersion: 2
-        x: 45
-        y: 81
-        width: 15
-        height: 27
+        x: 48
+        y: 112
+        width: 16
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -331,13 +337,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Angry0
+      name: FoodEmotes-Sheet_8
       rect:
         serializedVersion: 2
         x: 0
-        y: 54
-        width: 15
-        height: 27
+        y: 84
+        width: 16
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -352,13 +358,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Angry1
+      name: FoodEmotes-Sheet_9
       rect:
         serializedVersion: 2
-        x: 15
-        y: 54
-        width: 15
-        height: 27
+        x: 16
+        y: 84
+        width: 16
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -373,13 +379,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fear0
+      name: FoodEmotes-Sheet_10
       rect:
         serializedVersion: 2
-        x: 30
-        y: 54
-        width: 15
-        height: 27
+        x: 32
+        y: 84
+        width: 16
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -394,13 +400,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fear1
+      name: FoodEmotes-Sheet_11
       rect:
         serializedVersion: 2
-        x: 45
-        y: 54
-        width: 15
-        height: 27
+        x: 48
+        y: 84
+        width: 16
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -415,13 +421,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Meat0
+      name: FoodEmotes-Sheet_12
       rect:
         serializedVersion: 2
         x: 0
-        y: 27
-        width: 15
-        height: 27
+        y: 56
+        width: 16
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -436,13 +442,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Meat1
+      name: FoodEmotes-Sheet_13
       rect:
         serializedVersion: 2
-        x: 15
-        y: 27
-        width: 15
-        height: 27
+        x: 16
+        y: 56
+        width: 16
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -457,13 +463,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Apple0
+      name: FoodEmotes-Sheet_14
       rect:
         serializedVersion: 2
-        x: 30
-        y: 27
-        width: 15
-        height: 27
+        x: 32
+        y: 56
+        width: 16
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -478,13 +484,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Apple1
+      name: FoodEmotes-Sheet_15
       rect:
         serializedVersion: 2
-        x: 45
-        y: 27
-        width: 15
-        height: 27
+        x: 48
+        y: 56
+        width: 16
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -499,13 +505,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Social0
+      name: FoodEmotes-Sheet_16
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 15
-        height: 27
+        y: 28
+        width: 16
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -520,13 +526,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Social1
+      name: FoodEmotes-Sheet_17
       rect:
         serializedVersion: 2
-        x: 15
-        y: 0
-        width: 15
-        height: 27
+        x: 16
+        y: 28
+        width: 16
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -541,13 +547,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Love0
+      name: FoodEmotes-Sheet_18
       rect:
         serializedVersion: 2
-        x: 30
-        y: 0
-        width: 15
-        height: 27
+        x: 32
+        y: 28
+        width: 16
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -562,13 +568,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Love1
+      name: FoodEmotes-Sheet_19
       rect:
         serializedVersion: 2
-        x: 45
-        y: 0
-        width: 15
-        height: 27
+        x: 48
+        y: 28
+        width: 16
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -578,6 +584,48 @@ TextureImporter:
       bones: []
       spriteID: 74f5e356677064260800000000000000
       internalID: 7081355669172805447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoodEmotes-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baff5221bac196fd0800000000000000
+      internalID: -2348314209627537493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoodEmotes-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ba95d314c5c4a5d0800000000000000
+      internalID: -3052097201513325903
       vertices: []
       indices: 
       edges: []

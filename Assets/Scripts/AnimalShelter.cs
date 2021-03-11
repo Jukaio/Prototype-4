@@ -54,6 +54,11 @@ public class AnimalShelter : MonoBehaviour
     [SerializeField] private List<AnimalSystem> animals = new List<AnimalSystem>();
     public int Count { get{ return animals.Count; } }
 
+    public int get_index(AnimalSystem animal)
+    {
+        return animals.IndexOf(animal);
+    }
+
     public AnimalSystem get(int index)
     {
         return animals[index];
@@ -63,8 +68,9 @@ public class AnimalShelter : MonoBehaviour
         if (empty())
             return false;
 
-        if (at < 0)
+        if (at < 0 || at >= Count)
             return false;
+
 
         return animals[at] != null;
     }
@@ -132,10 +138,20 @@ public class AnimalShelter : MonoBehaviour
 
         animals[index].on_move(target);
     }
+
+
+
     private void Start()
     {
         adder = new AnimalAdder(this);
         killer = new AnimalKiller(this);
+    }
+
+    public void swap(int a, int b)
+    {
+        var temp = animals[a];
+        animals[a] = animals[b];
+        animals[b] = temp;
     }
 
     private void Update()

@@ -40,6 +40,11 @@ public class CaringState : PlayerState
 
     const int max = (int)State.count - 1;
 
+    public void set_current_selection_index(int index)
+    {
+        curr_index = index;
+    }
+
     void Start()
     {
         ps = GetComponent<PlayerSystem>();
@@ -51,9 +56,10 @@ public class CaringState : PlayerState
         menu.SetActive(false);
 
         menu_sprites = new SpriteRenderer[menu.transform.childCount];
-        var children = menu.transform.GetComponentsInChildren<SpriteRenderer>();
-        for(int i = 0; i < children.Length; i++) {
-            menu_sprites[i] = children[i];
+        //var children = menu.transform.GetComponentsInChildren<SpriteRenderer>();
+        for(int i = 0; i < menu.transform.childCount; i++) {
+            var child = menu.transform.GetChild(i);
+            menu_sprites[i] = child.GetComponent<SpriteRenderer>();
             menu_sprites[i].sprite = unhovered;
         }
         menu_sprites[0].sprite = hovered;
@@ -114,7 +120,7 @@ public class CaringState : PlayerState
                 increment_tool();
             if (controller.is_down(Button.Down)) {
                 menu.transform.GetChild(curr_tool).GetComponent<MenuEntry>()
-                    .use(animals.get(curr_index));
+                    .use(animals.get(curr_index), curr_index);
             }
         }
     }
@@ -169,6 +175,9 @@ public class CaringState : PlayerState
     {
         menu_sprites[prev_tool].sprite = unhovered;
         menu_sprites[curr_tool].sprite = hovered;
+
+
+
     }
 
     public bool are_animals_close()

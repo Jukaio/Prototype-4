@@ -1,58 +1,31 @@
 fileFormatVersion: 2
-guid: d53d8c59b00e8a6498c9c567f34c93de
+guid: 4b96f0ce8820af24ba315764fdce42e1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2878642724653588828
-    second: wolf_walk1 (2)_0
+      213: 7648727512846151094
+    second: SnakeWalk_0
   - first:
-      213: 6510210377689942570
-    second: wolf_walk1 (2)_1
+      213: 2959092120660414764
+    second: SnakeWalk_1
   - first:
-      213: -5339735758584387412
-    second: wolf_walk1 (2)_2
+      213: -1575571605713457888
+    second: SnakeWalk_2
   - first:
-      213: 190144956071734465
-    second: wolf_walk1 (2)_3
+      213: 4968257681461485034
+    second: SnakeWalk_3
   - first:
-      213: 4056977427731625970
-    second: wolf_walk1 (2)_4
+      213: -4111291418275280146
+    second: SnakeWalk_4
   - first:
-      213: -7744169092689670124
-    second: wolf_walk1 (2)_5
+      213: 2241564222137489741
+    second: SnakeWalk_5
   - first:
-      213: -796280950316580278
-    second: wolf_walk1 (2)_6
+      213: 8465250449901355362
+    second: SnakeWalk_6
   - first:
-      213: 1515951188185695349
-    second: wolf_walk1 (2)_7
-  - first:
-      213: 8274571015283779076
-    second: WolfWalk_0
-  - first:
-      213: -6021835753688707643
-    second: WolfWalk_1
-  - first:
-      213: 9107473539280812407
-    second: WolfWalk_2
-  - first:
-      213: -1588634507646456142
-    second: WolfWalk_3
-  - first:
-      213: -857360926580996308
-    second: WolfWalk_4
-  - first:
-      213: 7815919583184891735
-    second: WolfWalk_5
-  - first:
-      213: -4026902975425849160
-    second: WolfWalk_6
-  - first:
-      213: -7967871135003971440
-    second: WolfWalk_7
-  - first:
-      213: -3581275015971662784
-    second: WolfWalk_8
+      213: 7421776591328079956
+    second: SnakeWalk_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -83,7 +56,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: -1
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -119,7 +92,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -131,19 +104,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Windows Store Apps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -155,7 +116,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -166,169 +127,169 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: WolfWalk_0
+      name: SnakeWalk_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 51
-        width: 35
-        height: 21
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        y: 0
+        width: 31
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 406abb27f7e25d270800000000000000
-      internalID: 8274571015283779076
+      spriteID: 6bda3f2f52db52a60800000000000000
+      internalID: 7648727512846151094
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WolfWalk_1
+      name: SnakeWalk_1
       rect:
         serializedVersion: 2
-        x: 35
-        y: 51
-        width: 35
-        height: 21
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 31
+        y: 0
+        width: 31
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5cd43ad79442e6ca0800000000000000
-      internalID: -6021835753688707643
+      spriteID: c211f951b9ec01920800000000000000
+      internalID: 2959092120660414764
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WolfWalk_2
+      name: SnakeWalk_2
       rect:
         serializedVersion: 2
-        x: 70
-        y: 51
-        width: 35
-        height: 21
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 62
+        y: 0
+        width: 31
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7793a163eee346e70800000000000000
-      internalID: 9107473539280812407
+      spriteID: 02de14be8f1722ae0800000000000000
+      internalID: -1575571605713457888
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WolfWalk_3
+      name: SnakeWalk_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 27
-        width: 35
-        height: 21
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 93
+        y: 0
+        width: 31
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2be2ecd055904f9e0800000000000000
-      internalID: -1588634507646456142
+      spriteID: aed1e10d90cc2f440800000000000000
+      internalID: 4968257681461485034
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WolfWalk_4
+      name: SnakeWalk_4
       rect:
         serializedVersion: 2
-        x: 35
-        y: 27
-        width: 35
-        height: 21
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 124
+        y: 0
+        width: 31
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c2707de97ca0a14f0800000000000000
-      internalID: -857360926580996308
+      spriteID: eea0795dc32c1f6c0800000000000000
+      internalID: -4111291418275280146
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WolfWalk_5
+      name: SnakeWalk_5
       rect:
         serializedVersion: 2
-        x: 70
-        y: 27
-        width: 35
-        height: 21
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 155
+        y: 0
+        width: 31
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 75f21cc4379b77c60800000000000000
-      internalID: 7815919583184891735
+      spriteID: d49dab1a8c2ab1f10800000000000000
+      internalID: 2241564222137489741
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WolfWalk_6
+      name: SnakeWalk_6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 3
-        width: 35
-        height: 21
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 186
+        y: 0
+        width: 31
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b857cc44119d18c0800000000000000
-      internalID: -4026902975425849160
+      spriteID: 2610611fe6c9a7570800000000000000
+      internalID: 8465250449901355362
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WolfWalk_7
+      name: SnakeWalk_7
       rect:
         serializedVersion: 2
-        x: 35
-        y: 3
-        width: 35
-        height: 21
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 217
+        y: 0
+        width: 31
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 090fff51b6f6c6190800000000000000
-      internalID: -7967871135003971440
+      spriteID: 4507b60dc727ff660800000000000000
+      internalID: 7421776591328079956
       vertices: []
       indices: 
       edges: []

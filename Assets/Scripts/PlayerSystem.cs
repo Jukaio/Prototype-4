@@ -12,6 +12,8 @@ public class PlayerSystem : MonoBehaviour
     [HideInInspector] private Controller fixed_controller;
     [HideInInspector] private Controller controller;
 
+    public IController Controller{ get{ return controller; } }
+
     public bool in_caring_state()
     {
         return current.GetType() == typeof(CaringState);

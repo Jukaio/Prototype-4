@@ -10,6 +10,8 @@ public class Bunny : AnimalSystem
     {
         if (Random.Range(0, 5) == 0)
             anim.Play("bunny_idle1");
+        else if (Random.Range(0, 8) == 0)
+            anim.Play("bunny_idle2");
     }
 
     public override void on_pat(InnerState state)
@@ -27,8 +29,8 @@ public class Bunny : AnimalSystem
     public InnerState.Emotion emotion;
     public override void on_update(AnimalShelter shelter, InnerState state)
     {
-        state.change(InnerState.Emotion.Lonely, 0.1f * Time.deltaTime);
-        state.change(InnerState.Emotion.Loved, -0.1f * Time.deltaTime);
+        state.change(InnerState.Emotion.Lonely, 0.01f * Time.deltaTime);
+        state.change(InnerState.Emotion.Loved, -0.01f * Time.deltaTime);
 
         var sorted = state.get_emotions_sorted_by_intensity();
         var current = sorted.GetEnumerator();
@@ -60,5 +62,10 @@ public class Bunny : AnimalSystem
     public override void on_animation(Vector3 velocity)
     {
         anim.SetBool("moving", velocity.magnitude > 0.0f);
+    }
+
+    public override void on_feed(InnerState state)
+    {
+
     }
 }

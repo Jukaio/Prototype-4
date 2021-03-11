@@ -15,6 +15,7 @@ public interface Emotional
     public abstract void on_update(AnimalShelter shelter, InnerState state);
     public abstract void on_animation(Vector3 look_dir);
     public abstract void on_pat(InnerState state);
+    public abstract void on_feed(InnerState state);
     public abstract void on_waiting(InnerState state);
 }
 
@@ -84,13 +85,13 @@ public class InnerState
         None = 0,
         Loved = 1,
         Lonely = -Loved,
-        Angry = 2,
-        Scared = -Angry
+        NotHungry = 2,
+        Hungry = -NotHungry
     }
     public enum BinaryEmotion
     {
         LovedLonely,
-        AngryScared,
+        NotHungryHungry,
         Count
     }
 
@@ -373,6 +374,10 @@ public abstract class AnimalSystem : MonoBehaviour, Commandable, Emotional
     {
         on_pat(inner_state);
     }
+    public void feed()
+    {
+        on_feed(inner_state);
+    }
 
     void Update()
     {
@@ -450,6 +455,7 @@ public abstract class AnimalSystem : MonoBehaviour, Commandable, Emotional
     
     public void set_animation(InnerState.Emotion emotion)
     {
+        timer = 1.5f;
         switch (emotion)
         {
             case InnerState.Emotion.None:
@@ -461,14 +467,16 @@ public abstract class AnimalSystem : MonoBehaviour, Commandable, Emotional
             case InnerState.Emotion.Lonely:
                 emotion_name = "Disappointed";
                 break;
-            case InnerState.Emotion.Angry:
+            case InnerState.Emotion.NotHungry:
                 emotion_name = "Angry";
                 break;
-            case InnerState.Emotion.Scared:
+            case InnerState.Emotion.Hungry:
                 emotion_name = "Fear";
                 break;
         }
     }
+
+    float timer = 0.0f;
     public IEnumerator play_animation()
     {
         while(is_emotion_playing)
@@ -476,8 +484,16 @@ public abstract class AnimalSystem : MonoBehaviour, Commandable, Emotional
             emotion_resolver.SetCategoryAndLabel(emotion_name, emotion_sprite_index.ToString());
             yield return new WaitForSeconds(0.2f);
             emotion_sprite_index = (emotion_sprite_index + 1) % 2;
+
+            timer -= 0.2f;
+            if(timer < 0.0f)
+            {
+                emotion_name = "Empty";
+            }
         }
     }
+
+    
 
 
 
@@ -486,6 +502,7 @@ public abstract class AnimalSystem : MonoBehaviour, Commandable, Emotional
     public abstract void on_shelter_exit(AnimalShelter shelter, InnerState state);
     public abstract void on_update(AnimalShelter shelter, InnerState state);
     public abstract void on_pat(InnerState state);
+    public abstract void on_feed(InnerState state);
     public abstract void on_waiting(InnerState state);
     public abstract void on_animation(Vector3 look_dir);
 }

@@ -1,25 +1,19 @@
 fileFormatVersion: 2
-guid: a82634313c557824fa01619bda460ef7
+guid: d74e77cda7dbc1e4ea973def05c33dbd
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5711355865509689143
-    second: WolfIdle2_0
+      213: 3361085727481286051
+    second: SnakeIdle1_0
   - first:
-      213: 7176672783275564653
-    second: WolfIdle2_1
+      213: 2789699271586995400
+    second: SnakeIdle1_1
   - first:
-      213: -7489398315233126667
-    second: WolfIdle2_2
+      213: 7366800624955384328
+    second: SnakeIdle1_2
   - first:
-      213: -7429205241097389379
-    second: WolfIdle2_3
-  - first:
-      213: 2038251024586161666
-    second: WolfIdle2_4
-  - first:
-      213: 388774335873470155
-    second: WolfIdle2_5
+      213: -3036255998187366008
+    second: SnakeIdle1_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -50,7 +44,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: -1
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -86,7 +80,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -98,19 +92,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Windows Store Apps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -122,7 +104,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -133,127 +115,85 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: WolfIdle2_0
+      name: SnakeIdle1_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 33
-        height: 21
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 27
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c88372b9103db0b0800000000000000
-      internalID: -5711355865509689143
+      spriteID: 3ad482e49a9f4ae20800000000000000
+      internalID: 3361085727481286051
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WolfIdle2_1
+      name: SnakeIdle1_1
       rect:
         serializedVersion: 2
-        x: 33
+        x: 27
         y: 0
-        width: 33
-        height: 21
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 27
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d6e9a5c6fd9a89360800000000000000
-      internalID: 7176672783275564653
+      spriteID: 8ccdb1105b007b620800000000000000
+      internalID: 2789699271586995400
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WolfIdle2_2
+      name: SnakeIdle1_2
       rect:
         serializedVersion: 2
-        x: 66
+        x: 54
         y: 0
-        width: 33
-        height: 21
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 27
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5f6de1fa9ef401890800000000000000
-      internalID: -7489398315233126667
+      spriteID: 802679d23222c3660800000000000000
+      internalID: 7366800624955384328
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WolfIdle2_3
+      name: SnakeIdle1_3
       rect:
         serializedVersion: 2
-        x: 99
+        x: 81
         y: 0
-        width: 33
-        height: 21
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 27
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dba7be0e13926e890800000000000000
-      internalID: -7429205241097389379
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WolfIdle2_4
-      rect:
-        serializedVersion: 2
-        x: 132
-        y: 0
-        width: 33
-        height: 21
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 20eb88bf182594c10800000000000000
-      internalID: 2038251024586161666
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WolfIdle2_5
-      rect:
-        serializedVersion: 2
-        x: 165
-        y: 0
-        width: 33
-        height: 21
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bcec68bd234356500800000000000000
-      internalID: 388774335873470155
+      spriteID: 88994e4a14d0dd5d0800000000000000
+      internalID: -3036255998187366008
       vertices: []
       indices: 
       edges: []
