@@ -7,21 +7,14 @@ using UnityEngine.EventSystems;
 public class canvasController : MonoBehaviour
 {
     public UnityEngine.UI.Button startButton;
-    public UnityEngine.UI.Button quitButton;
-    public UnityEngine.UI.Button resumeButton;
-    public UnityEngine.UI.Button restartButton;
     public UnityEngine.UI.Button pauseButton;
-    public UnityEngine.UI.Button pausedButton;
+    public Image pausedButton;
     public Image bg;
-    public GameObject game;
-    private GameObject currentGame;
-
-    private int levelCounter = 0;
-
-    public static int SheepInLevel = 0;
+    bool isPaussed = false;
 
     public void PauseButton()
     {
+        isPaussed = true;
         PauseTime();
         SetStartActive(false);
         SetPauseActive(true);
@@ -45,16 +38,7 @@ public class canvasController : MonoBehaviour
 
     public void ResumeButton()
     {
-        ResumeTime();
-        SetStartActive(false);
-        SetPauseActive(false);
-    }
-
-    public void RestrartButton()
-    {
-        Destroy(currentGame);
-        currentGame = Instantiate(game);
-        Camera.main.transform.position = new Vector3(0, 0, -10);
+        isPaussed = false;
         ResumeTime();
         SetStartActive(false);
         SetPauseActive(false);
@@ -62,25 +46,15 @@ public class canvasController : MonoBehaviour
 
     private void SetPauseActive(bool state)
     {
-        resumeButton.gameObject.SetActive(state);
-        restartButton.gameObject.SetActive(state);
         bg.gameObject.SetActive(state);
-
         pauseButton.gameObject.SetActive(!state);
         pausedButton.gameObject.SetActive(state);
-
-        EventSystem.current.SetSelectedGameObject(null);
-        EventSystem.current.SetSelectedGameObject(resumeButton.gameObject);
     }
 
     private void SetStartActive(bool state)
     {
-        startButton.gameObject.SetActive(state);
-        quitButton.gameObject.SetActive(state);
-        bg.gameObject.SetActive(state);
-
-        EventSystem.current.SetSelectedGameObject(null);
-        EventSystem.current.SetSelectedGameObject(startButton.gameObject);
+        //startButton.gameObject.SetActive(state);
+        //bg.gameObject.SetActive(state);
     }
 
     private void PauseTime()
@@ -95,28 +69,26 @@ public class canvasController : MonoBehaviour
 
     void Start()
     {
-        game.SetActive(true);
-        PauseTime();
+        ResumeTime();
         SetPauseActive(false);
-        SetStartActive(true);
-        pauseButton.gameObject.SetActive(false);
-        pausedButton.gameObject.SetActive(true);
+        pauseButton.gameObject.SetActive(true);
+        pausedButton.gameObject.SetActive(false);
     }
 
-    private void Awake()
-    {
-        g_canvasController = this;
-        currentGame = Instantiate(game);
-    }
-
-    public static canvasController g_canvasController;
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            PauseButton();
+            if (!isPaussed)
+            {
+                PauseButton();
+            }
+            else
+            {
+                ResumeButton();
+            }
         }
-        Debug.Log(SheepInLevel);
+
     }
 
 }
