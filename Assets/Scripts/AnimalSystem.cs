@@ -13,7 +13,7 @@ public interface Emotional
     public abstract void on_shelter_enter(AnimalShelter shelter, InnerState state);
     public abstract void on_shelter_exit(AnimalShelter shelter, InnerState state);
     public abstract void on_update(AnimalShelter shelter, InnerState state);
-    public abstract void on_animation(Vector3 look_dir);
+    public abstract void on_animation(Vector3 velocity);
     public abstract void on_pat(InnerState state);
     public abstract void on_feed(InnerState state);
     public abstract void on_waiting(InnerState state);
@@ -504,5 +504,5 @@ public abstract class AnimalSystem : MonoBehaviour, Commandable, Emotional
     public abstract void on_pat(InnerState state);
     public abstract void on_feed(InnerState state);
     public abstract void on_waiting(InnerState state);
-    public abstract void on_animation(Vector3 look_dir);
+    public abstract void on_animation(Vector3 velocity);
 }

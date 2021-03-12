@@ -142,12 +142,12 @@ TextureImporter:
       name: DeerWalk_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 1
         y: 0
-        width: 33
+        width: 32
         height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -163,12 +163,12 @@ TextureImporter:
       name: DeerWalk_1
       rect:
         serializedVersion: 2
-        x: 33
+        x: 34
         y: 0
-        width: 33
+        width: 32
         height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -184,12 +184,12 @@ TextureImporter:
       name: DeerWalk_2
       rect:
         serializedVersion: 2
-        x: 66
+        x: 67
         y: 0
-        width: 33
+        width: 32
         height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -205,12 +205,12 @@ TextureImporter:
       name: DeerWalk_3
       rect:
         serializedVersion: 2
-        x: 99
+        x: 100
         y: 0
-        width: 33
+        width: 32
         height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -226,12 +226,12 @@ TextureImporter:
       name: DeerWalk_4
       rect:
         serializedVersion: 2
-        x: 132
+        x: 133
         y: 0
-        width: 33
+        width: 32
         height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -247,12 +247,12 @@ TextureImporter:
       name: DeerWalk_5
       rect:
         serializedVersion: 2
-        x: 165
+        x: 166
         y: 0
-        width: 33
+        width: 32
         height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -268,12 +268,12 @@ TextureImporter:
       name: DeerWalk_6
       rect:
         serializedVersion: 2
-        x: 198
+        x: 199
         y: 0
-        width: 33
+        width: 32
         height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -289,12 +289,12 @@ TextureImporter:
       name: DeerWalk_7
       rect:
         serializedVersion: 2
-        x: 231
+        x: 232
         y: 0
-        width: 33
+        width: 32
         height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

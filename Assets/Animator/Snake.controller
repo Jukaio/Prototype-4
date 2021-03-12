@@ -19,10 +19,10 @@ AnimatorStateTransition:
   serializedVersion: 3
   m_TransitionDuration: 0
   m_TransitionOffset: 0
-  m_ExitTime: 0.9658756
+  m_ExitTime: 1
   m_HasExitTime: 0
   m_HasFixedDuration: 0
-  m_InterruptionSource: 0
+  m_InterruptionSource: 1
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
 --- !u!1101 &-5380753987707249899
@@ -57,7 +57,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: bunny_walking
+  m_Name: walking
   m_Speed: 2.5
   m_CycleOffset: 0
   m_Transitions:
@@ -71,7 +71,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: b5d2c8ff3e6bcfc429a1c26a49ec7eac, type: 2}
+  m_Motion: {fileID: 7400000, guid: 6057e7390e9147d44888a6628c442217, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -110,16 +110,10 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: 3659789845081732852}
-    m_Position: {x: 300, y: 70, z: 0}
-  - serializedVersion: 1
-    m_State: {fileID: 980097541283359816}
-    m_Position: {x: 570, y: 150, z: 0}
+    m_Position: {x: 350, y: 100, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -4375323163687248130}
     m_Position: {x: 430, y: 370, z: 0}
-  - serializedVersion: 1
-    m_State: {fileID: -3111066242141249383}
-    m_Position: {x: 150, y: 270, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -244,12 +238,12 @@ AnimatorStateTransition:
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 3
-  m_TransitionDuration: 0.09718299
+  m_TransitionDuration: 0
   m_TransitionOffset: 0
-  m_ExitTime: 0.85422534
+  m_ExitTime: 1
   m_HasExitTime: 0
   m_HasFixedDuration: 1
-  m_InterruptionSource: 0
+  m_InterruptionSource: 1
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
 --- !u!91 &9100000
@@ -315,7 +309,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: bunny_idle0
+  m_Name: idle0
   m_Speed: 1.25
   m_CycleOffset: 0
   m_Transitions:
@@ -329,7 +323,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 8cbf7efb63553b74ebc10135c55e1e3c, type: 2}
+  m_Motion: {fileID: 7400000, guid: 11819d00abd8aaa4a9b6a14a196912de, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 

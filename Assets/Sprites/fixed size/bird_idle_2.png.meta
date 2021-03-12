@@ -1,31 +1,19 @@
 fileFormatVersion: 2
-guid: 8e095c03fb741084faf98bd1cc549589
+guid: 3607c21b06b051d4ba1ae4b34441b107
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7648727512846151094
-    second: SnakeWalk_0
+      213: -8028859519873437615
+    second: bird_idle_2_0
   - first:
-      213: 2959092120660414764
-    second: SnakeWalk_1
+      213: -6005242736336684409
+    second: bird_idle_2_1
   - first:
-      213: -1575571605713457888
-    second: SnakeWalk_2
+      213: -4349709750379368442
+    second: bird_idle_2_2
   - first:
-      213: 4968257681461485034
-    second: SnakeWalk_3
-  - first:
-      213: -4111291418275280146
-    second: SnakeWalk_4
-  - first:
-      213: 2241564222137489741
-    second: SnakeWalk_5
-  - first:
-      213: 8465250449901355362
-    second: SnakeWalk_6
-  - first:
-      213: 7421776591328079956
-    second: SnakeWalk_7
+      213: -2017474869199566976
+    second: bird_idle_2_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -112,18 +100,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Windows Store Apps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -139,13 +115,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SnakeWalk_0
+      name: bird_idle_2_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 32
-        height: 12
+        width: 20
+        height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,20 +129,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6bda3f2f52db52a60800000000000000
-      internalID: 7648727512846151094
+      spriteID: 1503e6e2ec2c39090800000000000000
+      internalID: -8028859519873437615
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SnakeWalk_1
+      name: bird_idle_2_1
       rect:
         serializedVersion: 2
-        x: 32
+        x: 20
         y: 0
-        width: 32
-        height: 12
+        width: 20
+        height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,20 +150,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c211f951b9ec01920800000000000000
-      internalID: 2959092120660414764
+      spriteID: 78a38a66c8719aca0800000000000000
+      internalID: -6005242736336684409
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SnakeWalk_2
+      name: bird_idle_2_2
       rect:
         serializedVersion: 2
-        x: 64
+        x: 40
         y: 0
-        width: 32
-        height: 12
+        width: 20
+        height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,20 +171,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02de14be8f1722ae0800000000000000
-      internalID: -1575571605713457888
+      spriteID: 600b59c170ab2a3c0800000000000000
+      internalID: -4349709750379368442
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SnakeWalk_3
+      name: bird_idle_2_3
       rect:
         serializedVersion: 2
-        x: 96
+        x: 60
         y: 0
-        width: 32
-        height: 12
+        width: 20
+        height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,92 +192,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aed1e10d90cc2f440800000000000000
-      internalID: 4968257681461485034
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SnakeWalk_4
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 0
-        width: 32
-        height: 12
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: eea0795dc32c1f6c0800000000000000
-      internalID: -4111291418275280146
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SnakeWalk_5
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 0
-        width: 32
-        height: 12
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d49dab1a8c2ab1f10800000000000000
-      internalID: 2241564222137489741
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SnakeWalk_6
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 0
-        width: 32
-        height: 12
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2610611fe6c9a7570800000000000000
-      internalID: 8465250449901355362
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SnakeWalk_7
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 0
-        width: 32
-        height: 12
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4507b60dc727ff660800000000000000
-      internalID: 7421776591328079956
+      spriteID: 0870516ab4d7004e0800000000000000
+      internalID: -2017474869199566976
       vertices: []
       indices: 
       edges: []

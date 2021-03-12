@@ -25,6 +25,21 @@ MonoBehaviour:
     - m_Name: 2
       m_Hash: 450215437
       m_Sprite: {fileID: 4083918901589708433, guid: 8f2fefc2c2af71b4187cdc2f71cea906, type: 3}
+  - m_Name: Idle1
+    m_Hash: 790364397
+    m_CategoryList:
+    - m_Name: 0
+      m_Hash: -186917087
+      m_Sprite: {fileID: -8028859519873437615, guid: 3607c21b06b051d4ba1ae4b34441b107, type: 3}
+    - m_Name: 1
+      m_Hash: -2082672713
+      m_Sprite: {fileID: -6005242736336684409, guid: 3607c21b06b051d4ba1ae4b34441b107, type: 3}
+    - m_Name: 2
+      m_Hash: 450215437
+      m_Sprite: {fileID: -4349709750379368442, guid: 3607c21b06b051d4ba1ae4b34441b107, type: 3}
+    - m_Name: 3
+      m_Hash: 1842515611
+      m_Sprite: {fileID: -2017474869199566976, guid: 3607c21b06b051d4ba1ae4b34441b107, type: 3}
   - m_Name: Walk
     m_Hash: 765711723
     m_CategoryList:
