@@ -26,7 +26,6 @@ public class Follow : MonoBehaviour
         {
             var clamped_x = Mathf.Clamp(positions.Dequeue().x, -7.0f, 7.0f);
             transform.position = new Vector3(clamped_x, transform.position.y, transform.position.z);
-            
         }
     }
 }
