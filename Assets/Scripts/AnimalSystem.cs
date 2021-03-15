@@ -161,7 +161,7 @@ public class InnerState
         sorted_by_intensity.Clear();
         for (int i = 0; i < (int)BinaryEmotion.Count; i++)
         {
-            float intensity = float.NaN;
+            float intensity = 0;
             Emotion em = Emotion.None;
             if (emotions[i].Value > 0.0f)
             {
@@ -191,11 +191,11 @@ public class InnerState
 
         if (is_negative)
         {
-            return emotion(BinaryEmotion.LovedLonely).Value < 0.0f;
+            return emotion((BinaryEmotion)index).Value < 0.0f;
         }
         else
         {
-            return emotion(BinaryEmotion.LovedLonely).Value > 0.0f;
+            return emotion((BinaryEmotion)index).Value > 0.0f;
         }
     }
     public void change(Emotion em, float by)
@@ -207,10 +207,10 @@ public class InnerState
         int index = Mathf.Abs(((int)em)) - 1;
 
         if (is_negative) {
-            emotion(BinaryEmotion.LovedLonely).Negative += by;
+            emotion((BinaryEmotion)index).Negative += by;
         }
         else {
-            emotion(BinaryEmotion.LovedLonely).Positive += by;
+            emotion((BinaryEmotion)index).Positive += by;
         }
     }
     public void reset_timer(Emotion em)
@@ -240,11 +240,11 @@ public class InnerState
 
         if (is_negative)
         {
-            emotion(BinaryEmotion.LovedLonely).Negative = by;
+            emotion((BinaryEmotion)index).Negative = by;
         }
         else
         {
-            emotion(BinaryEmotion.LovedLonely).Positive = by;
+            emotion((BinaryEmotion)index).Positive = by;
         }
     }
 
@@ -258,11 +258,11 @@ public class InnerState
 
         if (is_negative)
         {
-            return emotion(BinaryEmotion.LovedLonely).Negative;
+            return emotion((BinaryEmotion)index).Negative;
         }
         else
         {
-            return emotion(BinaryEmotion.LovedLonely).Positive;
+            return emotion((BinaryEmotion)index).Positive;
         }
     }
 }
@@ -455,7 +455,7 @@ public abstract class AnimalSystem : MonoBehaviour, Commandable, Emotional
     
     public void set_animation(InnerState.Emotion emotion)
     {
-        timer = 1.5f;
+        timer = 2.0f;
         switch (emotion)
         {
             case InnerState.Emotion.None:
@@ -468,10 +468,10 @@ public abstract class AnimalSystem : MonoBehaviour, Commandable, Emotional
                 emotion_name = "Disappointed";
                 break;
             case InnerState.Emotion.NotHungry:
-                emotion_name = "Angry";
+                emotion_name = "Happy";
                 break;
             case InnerState.Emotion.Hungry:
-                emotion_name = "Fear";
+                emotion_name = "Meat";
                 break;
         }
     }

@@ -164,8 +164,8 @@ MonoBehaviour:
   menu_arrow_offset: {x: 0, y: -0.2}
   menu_arrow: {fileID: 1283061295}
   menu: {fileID: 1052522861}
-  unhovered: {fileID: 8586885197115800619, guid: d71a8fd0164d7fc4dad8c1dc7963eec9, type: 3}
-  hovered: {fileID: 8160775752198118580, guid: d71a8fd0164d7fc4dad8c1dc7963eec9, type: 3}
+  unhovered: {fileID: -1557013538026691241, guid: d71a8fd0164d7fc4dad8c1dc7963eec9, type: 3}
+  hovered: {fileID: 82707731993968007, guid: d71a8fd0164d7fc4dad8c1dc7963eec9, type: 3}
   around_player_arrow_offset: {x: 0, y: -0.25}
   around_player_arrow: {fileID: 1328028522}
   allow_adopting: 1
@@ -1060,7 +1060,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 8586885197115800619, guid: d71a8fd0164d7fc4dad8c1dc7963eec9, type: 3}
+  m_Sprite: {fileID: -1557013538026691241, guid: d71a8fd0164d7fc4dad8c1dc7963eec9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1247,10 +1247,10 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 6ee19bb60cea8c04698ba7b9335b453d, type: 3}
-  m_PlayOnAwake: 0
-  m_Volume: 1
+  m_PlayOnAwake: 1
+  m_Volume: 0.5
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -1474,7 +1474,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 8586885197115800619, guid: d71a8fd0164d7fc4dad8c1dc7963eec9, type: 3}
+  m_Sprite: {fileID: -1557013538026691241, guid: d71a8fd0164d7fc4dad8c1dc7963eec9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1573,7 +1573,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 8586885197115800619, guid: d71a8fd0164d7fc4dad8c1dc7963eec9, type: 3}
+  m_Sprite: {fileID: -1557013538026691241, guid: d71a8fd0164d7fc4dad8c1dc7963eec9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1788,6 +1788,7 @@ MonoBehaviour:
   emotion_resolver: {fileID: 270604495}
   receive_frequency: 0.1
   reaction_delay: 0.25
+  prev: 0
   emotion: 0
 --- !u!61 &1101701721
 BoxCollider2D:
@@ -2413,7 +2414,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 8586885197115800619, guid: d71a8fd0164d7fc4dad8c1dc7963eec9, type: 3}
+  m_Sprite: {fileID: -1557013538026691241, guid: d71a8fd0164d7fc4dad8c1dc7963eec9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2735,6 +2736,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 736549573006409553, guid: 37e3facf1cd0abb42b570489a4def80a, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 736549573006409553, guid: 37e3facf1cd0abb42b570489a4def80a, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.12
+      objectReference: {fileID: 0}
     - target: {fileID: 736549573006409555, guid: 37e3facf1cd0abb42b570489a4def80a, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -2986,5 +2995,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6790748137865049577, guid: 2c71bbcd565f81a4699e648bb9d07afb, type: 3}
+      propertyPath: m_labelHash
+      value: -1.3936018e+32
+      objectReference: {fileID: 0}
+    - target: {fileID: 6790748137865049577, guid: 2c71bbcd565f81a4699e648bb9d07afb, type: 3}
+      propertyPath: m_CategoryHash
+      value: 2.2952445e+38
+      objectReference: {fileID: 0}
+    - target: {fileID: 6790748137865049578, guid: 2c71bbcd565f81a4699e648bb9d07afb, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1457568767260597434, guid: dbab4e42a65241c42b3f9e82e247a246, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2c71bbcd565f81a4699e648bb9d07afb, type: 3}
